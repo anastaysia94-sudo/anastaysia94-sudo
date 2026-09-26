@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <title>Promotion Engine — SmartPickShop Holdings</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">SMARTPICKSHOP HOLDINGS · OWNER WORKSPACE</p>
+      <h1>Promotion Engine</h1>
+      <p class="subtitle">Evidence-first distribution · free routes first · permission before promotion</p>
+    </div>
+    <div class="header-actions">
+      <button id="exportBtn" class="button secondary">Export progress</button>
+      <label class="button secondary file-button">Import progress<input id="importInput" type="file" accept="application/json" hidden /></label>
+      <button id="resetBtn" class="button danger">Reset local progress</button>
+    </div>
+  </header>
+
+  <div class="notice" id="rebuildNotice"></div>
+
+  <nav class="tabs" aria-label="Promotion Engine views">
+    <button class="tab active" data-view="dashboard">Dashboard</button>
+    <button class="tab" data-view="routes">Routes</button>
+    <button class="tab" data-view="workspace">Workspace</button>
+    <button class="tab" data-view="actions">Next Actions</button>
+    <button class="tab" data-view="drafts">Drafts</button>
+    <button class="tab" data-view="evidence">Evidence</button>
+  </nav>
+
+  <main>
+    <section id="dashboardView" class="view active"></section>
+
+    <section id="routesView" class="view">
+      <div class="filters panel">
+        <input id="searchInput" type="search" placeholder="Search route, platform, audience, rule…" aria-label="Search routes" />
+        <select id="statusFilter" aria-label="Filter by evidence status"><option value="">All evidence statuses</option></select>
+        <select id="platformFilter" aria-label="Filter by platform"><option value="">All platforms</option></select>
+        <select id="progressFilter" aria-label="Filter by workspace progress">
+          <option value="">All progress</option>
+          <option>Not Started</option><option>Ready</option><option>In Progress</option><option>Submitted</option><option>Published</option><option>Blocked</option><option>Skipped</option>
+        </select>
+      </div>
+      <div id="routeCount" class="result-count"></div>
+      <div id="routesGrid" class="route-grid"></div>
+    </section>
+
+    <section id="workspaceView" class="view">
+      <div class="section-head">
+        <div><p class="eyebrow">CHANNEL WORKSPACE MANAGEMENT</p><h2>Execution ledger</h2></div>
+        <p>Owner-only progress, notes, receipts, and next moves. Saved in this browser unless exported.</p>
+      </div>
+      <div id="workspaceTableWrap" class="table-wrap"></div>
+    </section>
+
+    <section id="actionsView" class="view"></section>
+    <section id="draftsView" class="view"></section>
+    <section id="evidenceView" class="view"></section>
+  </main>
+
+  <template id="routeTemplate">
+    <article class="route-card">
+      <div class="route-topline">
+        <span class="route-id"></span>
+        <span class="priority-pill"></span>
+      </div>
+      <h3 class="route-title"></h3>
+      <p class="platform"></p>
+      <div class="pill-row"><span class="status-pill"></span><span class="cost-pill"></span></div>
+      <dl class="route-details"></dl>
+      <div class="workspace-controls">
+        <label>Progress<select class="progress-select"><option>Not Started</option><option>Ready</option><option>In Progress</option><option>Submitted</option><option>Published</option><option>Blocked</option><option>Skipped</option></select></label>
+        <label>Project / offer<input class="project-input" placeholder="e.g. Founder Dynasty OS" /></label>
+        <label>Receipt / live URL<input class="receipt-input" type="url" placeholder="https://…" /></label>
+        <label>Owner notes<textarea class="notes-input" rows="3" placeholder="What happened, blocker, response, next move…"></textarea></label>
+      </div>
+      <div class="card-actions"><a class="button link-button direct-link" target="_blank" rel="noopener">Open route</a><a class="button link-button source-link" target="_blank" rel="noopener">Evidence</a></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
