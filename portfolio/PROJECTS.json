@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T22:45:00-07:00",
+  "generated_at": "2026-09-25T23:21:00-07:00",
   "source": "Master Project Ledger — SmartPickShop — CURRENT — 2026-09-25 (Google Drive), merged with legacy continuity records for IDs absent from the current ledger",
   "project_count": 161,
   "current_ledger_project_count": 158,
@@ -103,10 +103,10 @@
       "name": "Master project register / Atlas / Wiki",
       "purpose": "A durable source-linked portfolio record preserving even small ideas.",
       "type": "System; parent P001.",
-      "status": "Not officially launched — user confirmed. This local register is created and validated in this task; canonical Google Doc has now been created and read back.",
+      "status": "Cross-LLM continuity is operational and verified in this pass: public-safe GitHub bootstrap/index, P001–P161 inventory, final repository map across 19 accessible repos, 10 staged missing-repo seed packs, and a private Drive START HERE document beside the current Master Project Ledger with asset/file and return-to-ChatGPT instructions. Dedicated repository creation remains blocked only by the connected GitHub tool not exposing repo creation.",
       "proposed_track": "Portfolio foundation. Explicit user must-have: durable register, evidence, inferred priorities and historical recovery.",
-      "next_action": "Use this current register as the canonical portfolio record and append verified changes after each material execution block rather than waiting for projects to finish.",
-      "done_when": "The canonical register has a known owner/location, recoverable backups and an update log.",
+      "next_action": "Keep CROSS_LLM_BOOTSTRAP.md, REPO_MAP.json, project handoff files, and the Drive START HERE document synchronized after material changes; when repository-creation permission is available, create the private smartpickshop-project-continuity repo from its staged seed and add automated register validation.",
+      "done_when": "Cross-account handoff works from GitHub + Drive without relying on chat history; hardening is complete when the dedicated continuity repo exists and PROJECTS.json / REPO_MAP.json validation is automated.",
       "source_status": "current_2026-09-25_ledger"
     },
     {
