@@ -1,3 +1,5 @@
+<p align="center"><img src="./assets/smartpickshop-profile-masthead.svg" alt="Anastaysia at SmartPickShop Holdings — Ideas today. Empires tomorrow." width="100%"></p>
+
 # Anastaysia @ SmartPickShop Holdings ⚙️💎
 
 ### Ideas today. Empires tomorrow.
