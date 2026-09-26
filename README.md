@@ -1,8 +1,16 @@
-## Hi there 👋
+# Anastaysia @ SmartPickShop Holdings ⚙️💎
 
-<!--
-**anastaysia94-sudo/anastaysia94-sudo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+### Ideas today. Empires tomorrow.
+
+Founder and builder behind **SmartPickShop Holdings**, creating practical software, opportunity-intelligence systems, automation tools, experimental products, and the infrastructure that keeps the whole wonderfully over-engineered machine moving.
+
+**Current build family:** Founder Dynasty OS · Cashh Radar · Trend Lab / AI Bridge · EGM4000 · Fish Shooter Arcade · Same-Beat · DoubleTap Rewards · Promotion Engine
+
+## SmartPickShop build philosophy
+
+**IDEAS → PLANS → PROGRESS → FREEDOM**
+
+The shared visual system is industrial steampunk with brass/copper machinery, dark iron surfaces, and cyan + magenta neon accents. Individual projects keep their own identity while remaining visibly part of the SmartPickShop family.
 
 ## Portfolio continuity
 
@@ -18,6 +26,6 @@ This profile repository is the discovery point for continuing SmartPickShop work
 - [Prebuilt seed packs for missing repositories](repo-seeds/)
 - [Repository bootstrap script](scripts/bootstrap_missing_repos.ps1)
 
-The inventory uses stable project IDs and separates verified repository state from historical chat claims so future agents can resume work without depending on one conversation history.
+> **Public-repo rule:** credentials, private client data, API keys, passwords, personal IDs, and private Drive identifiers stay out of this repository.
 
-For private files/assets, connect the authorized Google Drive account and search for the exact title **00 — LLM CONTINUITY — START HERE — SmartPickShop**. Never place Drive IDs, credentials, API keys, passwords, or private client information in this public repository.
+For private files/assets, use the authorized Google Drive account and search for **00 — LLM CONTINUITY — START HERE — SmartPickShop**.
