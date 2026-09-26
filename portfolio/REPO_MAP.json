@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T23:05:00-07:00",
+  "generated_at": "2026-09-25T23:16:00-07:00",
   "owner": "anastaysia94-sudo",
   "existing": [
     {
@@ -18,7 +18,9 @@
       "ci_verification": {
         "state": "last_known_success",
         "note": "Latest visible workflow succeeded; continuity docs did not trigger a fresh run."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:44:16Z"
     },
     {
       "repo": "Anarchy-LLM",
@@ -36,7 +38,9 @@
       "ci_verification": {
         "state": "last_known_success",
         "note": "Latest visible Anarchy CI run succeeded; continuity docs did not trigger a fresh run."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:44:22Z"
     },
     {
       "repo": "AudioHardcore",
@@ -44,7 +48,7 @@
         "P036"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/AudioHardcore",
-      "latest_verified_commit_sha": "e8f3d9e7092278d2066c5fa523a3e423eae7b77e",
+      "latest_verified_commit_sha": "849568d98faeceb3926c2826645378b868d7aad4",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -54,7 +58,9 @@
       "ci_verification": {
         "state": "verification_pending_after_source_update",
         "note": "Resonance temporary PR acceptance workflow changed after the prior failure snapshot. Re-run Linux/Windows bridge generation, analysis, tests, and build before claiming green."
-      }
+      },
+      "latest_observed_commit_message": "docs: refresh current cross-LLM handoff state",
+      "latest_observed_at": "2026-09-26T06:09:44Z"
     },
     {
       "repo": "cashh-radar",
@@ -64,7 +70,7 @@
         "P013"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/cashh-radar",
-      "latest_verified_commit_sha": "85fea5ba5f7afce123c3f30b620c7a2a6ea51e84",
+      "latest_verified_commit_sha": "66295a53658dffa05036e6cb1f2578bbbe4457b9",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -74,7 +80,9 @@
       "ci_verification": {
         "state": "verification_pending_after_source_update",
         "note": "Production mobile acceptance workflow was updated after the prior CI snapshot. Re-run the current workflow before claiming the latest commit green."
-      }
+      },
+      "latest_observed_commit_message": "docs: sync handoff to latest Cashh acceptance fix",
+      "latest_observed_at": "2026-09-26T06:12:45Z"
     },
     {
       "repo": "doubletap-rewards",
@@ -82,7 +90,7 @@
         "P050"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/doubletap-rewards",
-      "latest_verified_commit_sha": "3a4368850edf400d7a482fa537b6010e20244b9f",
+      "latest_verified_commit_sha": "0c2bdd8d88219ee71fa604ff982407764ce1bb4b",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -92,7 +100,9 @@
       "ci_verification": {
         "state": "real_device_debug_acceptance_verified",
         "note": "Repository evidence records successful GitHub Actions Android build, debug APK install, and MainActivity launch on a real Android device. Signed production/store release remains unverified."
-      }
+      },
+      "latest_observed_commit_message": "docs: refresh current cross-LLM handoff state",
+      "latest_observed_at": "2026-09-26T06:08:17Z"
     },
     {
       "repo": "dumpsteratlas",
@@ -110,7 +120,9 @@
       "ci_verification": {
         "state": "success",
         "note": "Dumpster Atlas Quality succeeded on the latest continuity commit."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:45:02Z"
     },
     {
       "repo": "EGM4000-Android",
@@ -119,7 +131,7 @@
         "P048"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/EGM4000-Android",
-      "latest_verified_commit_sha": "59f3f3f7c8b9c4586acdb9eb86661c58c79d7c88",
+      "latest_verified_commit_sha": "f834cf87ebb7f5dd30bad25b7f6d1317aaa8e818",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -129,7 +141,9 @@
       "ci_verification": {
         "state": "acceptance_boundary_updated",
         "note": "Latest source documents authorized non-monetary acceptance. Current end-to-end acceptance should be rerun in owned/authorized non-cash environments before claiming the complete gate green."
-      }
+      },
+      "latest_observed_commit_message": "docs: refresh current cross-LLM handoff state",
+      "latest_observed_at": "2026-09-26T06:08:11Z"
     },
     {
       "repo": "Firek-clone",
@@ -147,7 +161,9 @@
       "ci_verification": {
         "state": "last_known_success",
         "note": "Latest visible Build PartyTeller APK run succeeded; continuity docs did not trigger a fresh run."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:45:13Z"
     },
     {
       "repo": "fish-shooter-arcade",
@@ -167,7 +183,9 @@
       "ci_verification": {
         "state": "success",
         "note": "Release, gameplay, and Founder Backend validation all succeeded on the latest continuity commit."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:45:19Z"
     },
     {
       "repo": "founder-os",
@@ -176,7 +194,7 @@
         "P016"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/founder-os",
-      "latest_verified_commit_sha": "d88fd1428bf4ff4102e95fa0fa84fe8d0ed14b25",
+      "latest_verified_commit_sha": "dcedb389dbd6155c9b8b3a1dcc98b45e5af7bddd",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -186,7 +204,9 @@
       "ci_verification": {
         "state": "verification_pending_after_source_update",
         "note": "Obsolete Four-Offer Railway deploy workflow was retired after the prior CI snapshot. Verify the current Supabase storefront/checkout path and Founder OS production acceptance."
-      }
+      },
+      "latest_observed_commit_message": "docs: refresh current cross-LLM handoff state",
+      "latest_observed_at": "2026-09-26T06:09:28Z"
     },
     {
       "repo": "human-operating-system-institute",
@@ -204,7 +224,9 @@
       "ci_verification": {
         "state": "last_known_success",
         "note": "Latest visible HOSI Atlas QA runs succeeded; continuity docs did not trigger a fresh run."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:45:30Z"
     },
     {
       "repo": "impound-ransom",
@@ -222,7 +244,9 @@
       "ci_verification": {
         "state": "success",
         "note": "Push on main succeeded on the latest continuity commit."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:45:52Z"
     },
     {
       "repo": "manila",
@@ -240,7 +264,9 @@
       "ci_verification": {
         "state": "last_known_success",
         "note": "Latest visible Manila Quality Gate succeeded; continuity docs did not trigger a fresh run."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:45:58Z"
     },
     {
       "repo": "same-beat",
@@ -258,7 +284,9 @@
       "ci_verification": {
         "state": "last_known_success",
         "note": "Latest visible SameBeat CI succeeded; continuity docs did not trigger a fresh run."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:46:04Z"
     },
     {
       "repo": "san-jose-prospecting-pwa",
@@ -276,7 +304,9 @@
       "ci_verification": {
         "state": "no_runs",
         "note": "No GitHub Actions runs exist."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:46:09Z"
     },
     {
       "repo": "smartpickshop-trend-lab",
@@ -285,7 +315,7 @@
         "P021"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/smartpickshop-trend-lab",
-      "latest_verified_commit_sha": "f86d55b1d197470d05d23695c71b6b60eec9b6f5",
+      "latest_verified_commit_sha": "80b66b5b61820f0b0528f4d4598a228138cb2729",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -295,7 +325,9 @@
       "ci_verification": {
         "state": "verification_pending_after_source_update",
         "note": "Playwright private-host authentication handling changed after the prior verification snapshot. Re-run E2E/private-host acceptance."
-      }
+      },
+      "latest_observed_commit_message": "docs: refresh current cross-LLM handoff state",
+      "latest_observed_at": "2026-09-26T06:09:21Z"
     },
     {
       "repo": "snarkyhowtos",
@@ -314,7 +346,9 @@
       "ci_verification": {
         "state": "success",
         "note": "Quality and Pages deployment succeeded on latest continuity commit; a separate dynamic docs run was still in progress when checked."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:46:20Z"
     },
     {
       "repo": "anastaysia94-sudo.github.io",
@@ -332,7 +366,9 @@
       "ci_verification": {
         "state": "success",
         "note": "Pages build and deployment succeeded on latest continuity commit."
-      }
+      },
+      "latest_observed_commit_message": "docs: add decisions continuity record",
+      "latest_observed_at": "2026-09-26T05:44:27Z"
     },
     {
       "repo": "anastaysia94-sudo",
@@ -347,7 +383,10 @@
         "portfolio/REPO_GAPS.md",
         "portfolio/REPO_MAP.json",
         "scripts/bootstrap_missing_repos.ps1"
-      ]
+      ],
+      "latest_verified_commit_sha": "a5eb976690560f48dc30f9fc001f6b4f2ae9a208",
+      "latest_observed_commit_message": "docs: sync bootstrap to newest source checkpoints",
+      "latest_observed_at": "2026-09-26T06:12:47Z"
     }
   ],
   "planned": [
@@ -442,5 +481,5 @@
     "Oops Academy stays sibling content to snarkyhowtos until independently maintained.",
     "Spanish Fiesta legacy source must be recovered/verified before duplicate repo creation."
   ],
-  "verification_note": "Cross-LLM continuity normalization refreshed 2026-09-25 23:05 PT. Repository SHAs record the newest observed source checkpoints. CI/build state is not inferred as green when code changed after the previous verification snapshot. Private Drive IDs and credentials are intentionally excluded."
+  "verification_note": "Final cross-LLM continuity snapshot for this pass. latest_verified_commit_sha is the newest repository commit observed during the final sweep. For high-movement repos, project STATUS.md distinguishes source changes from completed verification. Updating this REPO_MAP creates a newer commit in the profile repo itself, so the profile entry is intentionally one commit behind its own map update; use repository HEAD there."
 }
