@@ -21,6 +21,6 @@ This profile repository is the discovery point for continuing SmartPickShop work
 
 - [Portfolio continuity guide](PORTFOLIO_CONTINUITY.md)
 - [Machine-readable project register](portfolio/PROJECTS.json)
-- [Repository gap / split plan](portfolio/REPO_GAPS.md)
+- [Repository gap / split plan](portfolio/REPO_GAPS.md\n- [`portfolio/RECOVERY_SOURCES.md`](portfolio/RECOVERY_SOURCES.md) — verified non-GitHub recovery leads and source/build/data classification)
 
 The inventory uses stable project IDs and separates verified repository state from historical chat claims so future agents can resume work without depending on one conversation history.
