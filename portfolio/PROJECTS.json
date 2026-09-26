@@ -15,22 +15,22 @@
       "name": "SmartPickShop Holdings",
       "purpose": "Software, commerce, services, education and creative products under a common portfolio.",
       "type": "Umbrella; parent none assigned.",
-      "status": "Not officially launched — user confirmed. Needs verification",
+      "status": "Active umbrella organization. A SmartPickShop steampunk/neon visual system is now present in the GitHub profile and has been applied in current source to Cashh Radar, Trend Lab, and Founder OS. This does not imply every project/platform has completed the branding migration.",
       "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
-      "next_action": "Locate brand and ownership records; keep legal formation unverified.",
+      "next_action": "Continue branding migrations only where a project actually changes, and preserve each project's functional acceptance gates separately from visual updates.",
       "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P002",
       "name": "Founder Dynasty OS",
       "purpose": "An operating system for developing and running businesses; all Founder OS versions belong together.",
       "type": "Product; parent P001.",
-      "status": "Not officially launched — user confirmed. Historical chats report authentication, persistence, portfolio work and deployment; none has been freshly executed here. Sales OS progress must no longer count as Founder OS progress.",
+      "status": "Not officially launched. Current source includes SmartPickShop branding and a Founder OS /api/ready endpoint through dbdc61d31b09d642327679f13a3ab66eda085a1f. Live readiness/source match plus sign-in/recovery, Business A/B isolation, persistence/restore, and mobile acceptance remain unverified.",
       "proposed_track": "Core product. High sustained importance: extensive repeated architecture, versions and corrections.",
-      "next_action": "Complete a genuine production-user acceptance suite: sign-in, reset, Business A/B isolation, persistence/restore, and mobile acceptance.",
+      "next_action": "Verify the live Founder OS URL/source revision and /api/ready, then run genuine-user auth/recovery, Business A/B isolation, persistence/restore, and mobile acceptance.",
       "done_when": "A new user can complete and resume the core business workflow without assistance; release blockers are resolved.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P003",
@@ -103,22 +103,22 @@
       "name": "Master project register / Atlas / Wiki",
       "purpose": "A durable source-linked portfolio record preserving even small ideas.",
       "type": "System; parent P001.",
-      "status": "Cross-LLM continuity is operational and verified in this pass: public-safe GitHub bootstrap/index, P001–P161 inventory, final repository map across 19 accessible repos, 10 staged missing-repo seed packs, and a private Drive START HERE document beside the current Master Project Ledger with asset/file and return-to-ChatGPT instructions. Dedicated repository creation remains blocked only by the connected GitHub tool not exposing repo creation.",
+      "status": "Cross-LLM continuity is operational and refreshed again on 2026-09-26. All 19 accessible repos were rechecked; six product repos with material changes had AI_HANDOFF/STATUS/NEXT_ACTIONS/DECISIONS refreshed, concurrent Trend Lab/Founder host changes were caught, the public profile index is being re-synchronized, and a new private Drive doc titled 01 — LLM CONTINUITY — DELTA REFRESH — SmartPickShop records post-snapshot changes. Ten dedicated repo targets remain staged but uncreated because repository creation is not exposed by the connected GitHub action set.",
       "proposed_track": "Portfolio foundation. Explicit user must-have: durable register, evidence, inferred priorities and historical recovery.",
-      "next_action": "Keep CROSS_LLM_BOOTSTRAP.md, REPO_MAP.json, project handoff files, and the Drive START HERE document synchronized after material changes; when repository-creation permission is available, create the private smartpickshop-project-continuity repo from its staged seed and add automated register validation.",
+      "next_action": "Keep the public bootstrap/map/project handoffs plus both Drive continuity docs synchronized after material changes. When repository-creation access exists, create smartpickshop-project-continuity from its seed and add automated PROJECTS/REPO_MAP validation.",
       "done_when": "Cross-account handoff works from GitHub + Drive without relying on chat history; hardening is complete when the dedicated continuity repo exists and PROJECTS.json / REPO_MAP.json validation is automated.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P010",
       "name": "Cashh Radar",
       "purpose": "Evidence-based opportunity discovery, scoring, outreach and outcome tracking, including Sales OS.",
       "type": "Product; parent P001.",
-      "status": "Not officially launched — user confirmed. Historical lead packages, a repository/deployment reference and sales workflows exist in chat. All Sales OS updates are logically assigned here, but code migration has not been performed.",
+      "status": "Not officially launched. Current product source reached 84d4cc4273ef9a6e5af2115ad4103212b68cca5d with hardened production-mobile acceptance, PWA asset checks that avoid service-worker activation races, SmartPickShop steampunk/neon branding, and a deployment-trigger commit. The newest live workflow result and deployed source match remain unverified.",
       "proposed_track": "Core product + revenue support. High sustained importance: repeated opportunity research and user correction assigning Sales OS here.",
-      "next_action": "Re-record full live route/auth/mobile/persistence acceptance and then validate one opportunity-to-recorded-outcome workflow with a real user/customer context.",
+      "next_action": "Verify the newest production-mobile workflow and live Railway source revision; then validate one real opportunity → source → score → outreach draft → recorded outcome flow.",
       "done_when": "One real opportunity can be evaluated and followed through without invented leads or results.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P011",
@@ -180,11 +180,11 @@
       "name": "Four-Offer Launch",
       "purpose": "A storefront and independent digital-product delivery effort.",
       "type": "Launch package; parent none assigned.",
-      "status": "Not officially launched — user confirmed. Last historical report: one of four gates passed, Vercel access blocked, hosted checks and a test purchase outstanding.",
+      "status": "Not officially launched. Current Founder OS source contains an active Four-Offer readiness path checking checkout configuration, PayPal API access, and required digital-delivery assets. The obsolete Railway direct-deploy workflow remains retired, but newer Railway build/revision work exists. Live topology and a sandbox purchase/capture/ledger/delivery path are not yet verified.",
       "proposed_track": "First-payment candidate. Potentially short path because chats report product packaging and delivery tests; access and exact offer identity remain unresolved.",
-      "next_action": "Secure an authorized hosting slot/access, deploy, verify `/health` + `/ready`, then complete sandbox purchase, capture, ledger entry, ZIP delivery/checksum, and support/refund path.",
+      "next_action": "Determine the actual current Four-Offer deployment/source revision, verify readiness, then complete one sandbox purchase → capture → payment record → digital delivery/checksum test.",
       "done_when": "One specific product can be purchased and delivered reliably; then verify the other three.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P017",
@@ -224,22 +224,22 @@
       "name": "SmartPickShop Trend Lab",
       "purpose": "Evidence-based niche intelligence for digital and social content.",
       "type": "Product; parent P001.",
-      "status": "Not officially launched — user confirmed. V2 implementation documents and Opportunity entity schema are discussed in the refreshed chats; no production build is verified.",
+      "status": "Not officially launched. Current Trend Lab product source reached 60d5ac6e489b9b58f018b39810656d79fc9e8a21 with fail-closed hosted auth, development-only loopback E2E bypass, scoring/persistence browser coverage, SmartPickShop steampunk/neon branding, explicit 390×844 mobile acceptance, and table containment to prevent page-level horizontal overflow. A fresh current-main/private-host run remains unverified.",
       "proposed_track": "Core product. Strong recent focus: repeated buyer research, V2 documentation and planned parallel work with AI Nexus.",
-      "next_action": "Reconcile the canonical scoring/evidence/confidence model, implement durable database/account persistence, then run signed-in mobile/desktop acceptance.",
+      "next_action": "Run latest E2E including the mobile case, verify the private hosted source revision and credentials, then verify scoring, evidence display, saving, refresh persistence, and desktop/mobile layout.",
       "done_when": "A target user can produce and export a useful report with source traceability.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P021",
       "name": "Niche Intelligence / Trend Analysis PWA",
       "purpose": "The research, scoring, content-planning and reporting specification for Trend Lab.",
       "type": "Specification; parent P020.",
-      "status": "Not officially launched — user confirmed. Needs verification",
+      "status": "Trend Lab implementation specification remains part of P020 rather than a duplicate product. Current source now includes explicit scoring/persistence and mobile-layout browser acceptance.",
       "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
-      "next_action": "Reconcile the earlier PWA specification with Trend Lab V2 rather than duplicate the product.",
+      "next_action": "Keep the specification reconciled with P020's current source and durable persistence/account roadmap instead of creating a second implementation.",
       "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P022",
@@ -400,11 +400,11 @@
       "name": "Resonance Digital Audio OS / Collector",
       "purpose": "Audio-library management with collector and audiophile phases.",
       "type": "Product idea; parent none assigned.",
-      "status": "Not officially launched — user confirmed. Needs verification",
+      "status": "Not officially launched. AudioHardcore is the current repository home for Resonance. The temporary PR acceptance harness has been updated through c9bc513477c33a0e26521ef89b338270ab101d07 with FRB/FilePicker compatibility fixes, cargo-expand installation, and non-fatal Flutter info lints. Fresh Android/Windows acceptance remains unverified.",
       "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
-      "next_action": "Locate real source and a runnable build, then define one library-management workflow.",
+      "next_action": "Run/inspect the current Resonance staging PR acceptance, preserve artifact evidence, keep the temporary harness until a verified replacement exists, then validate one library-management workflow end to end.",
       "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P037",
@@ -499,11 +499,11 @@
       "name": "EGM4000 / EduGameMaster4000",
       "purpose": "Gaming analytics, coaching, replay and community tools; earlier EGM versions stay in this lineage.",
       "type": "Product; parent none assigned.",
-      "status": "Not officially launched — user confirmed. Historical Android/web/backend claims and simulated usage; simulated users are not customers.",
+      "status": "Not officially launched. EGM4000 now includes a cross-repo F.S.A. runtime telemetry bridge through 2af2022b53c92e0711ac8067a5489f47d9581952. Source tests feed synthetic exact-telemetry shot/hit/destroy events into EGM skill analysis while preserving a non-predictive limitation. Current workflow and full authorized non-cash Web/PWA + Android acceptance remain unverified.",
       "proposed_track": "Parallel game track. Strong recurring technical and creative focus.",
-      "next_action": "Fix/rerun Web/PWA acceptance and complete one real consenting gameplay telemetry session. Keep EGM4000 and F.S.A. as separate products.",
+      "next_action": "Verify the F.S.A. runtime bridge workflow, then complete the owned/authorized non-cash session → telemetry → analysis → replay/catch-up → isolation acceptance loop.",
       "done_when": "An actual supported session produces accurate, useful feedback.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P046",
@@ -532,11 +532,11 @@
       "name": "EGM–FSA learning integration",
       "purpose": "Gameplay telemetry feeding analysis and coaching.",
       "type": "Integration; parent P045.",
-      "status": "Not officially launched — user confirmed. Needs verification",
+      "status": "Integration source now includes an explicit cross-repository F.S.A. telemetry contract/runtime bridge test. It uses synthetic/authorized non-cash telemetry and does not imply access to hidden mechanics or predictive certainty.",
       "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
-      "next_action": "Test ingestion, identity handling and one useful feedback result against a real game session.",
+      "next_action": "Verify the bridge workflow result and then run one full authorized non-cash integration acceptance path with evidence labels preserved.",
       "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P049",
@@ -554,11 +554,11 @@
       "name": "DoubleTap Rewards OS — Cash Carnage Edition",
       "purpose": "The combined DoubleTap, DoubleDip and RewardPilot product lineage.",
       "type": "Product; parent none assigned.",
-      "status": "Not officially launched — user confirmed. Needs verification",
+      "status": "Not officially launched. Real-device Android debug acceptance remains verified at 3a4368850edf400d7a482fa537b6010e20244b9f: successful Actions build, debug APK install, and MainActivity launch on an authorized device. Current 3a319b742d8c46d4d501b3f69cbdc4d5030951dd only retriggers emulator smoke; signed release, remaining functional acceptance, and store publication remain separate unverified gates.",
       "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
-      "next_action": "Reconcile/merge the repair PR as appropriate, retrieve/verify artifacts, install-smoke on emulator/device, then complete signed release and Play/privacy declaration gates.",
+      "next_action": "Check the current emulator smoke result, then verify release signing, produce/verify the signed build, complete remaining in-app functional acceptance, and handle store publication separately.",
       "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P051",
@@ -1571,11 +1571,11 @@
       "name": "founder-os / Founder Dynasty OS web shell",
       "purpose": "GitHub operating repo for Founder Dynasty OS + Four Offer storefront code (`four-offer-launch/`).",
       "type": "Implementation repo. Parent: P002 / P016.",
-      "status": "Not officially launched.",
+      "status": "Canonical implementation repo exists and is active. Founder OS readiness/product source reached dbdc61d31b09d642327679f13a3ab66eda085a1f; newer hosting config pins the embedded Trend Lab host to 60d5ac6e489b9b58f018b39810656d79fc9e8a21. Live deployment verification remains pending.",
       "proposed_track": "",
-      "next_action": "Finish Founder OS genuine-user acceptance and keep Four-Offer's separate hosted checkout acceptance tracked under P016.",
+      "next_action": "Verify live Founder OS/Four-Offer/embedded-Trend-Lab deployment URLs and served revisions, then complete readiness and acceptance gates.",
       "done_when": "",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P144",
@@ -1604,11 +1604,11 @@
       "name": "Cashh Radar live service check",
       "purpose": "Distinguish Cashh Radar *product* (P010) from a historically claimed live API (`/api/health` v2.2.0).",
       "type": "Ops note / deployment. Parent: P010.",
-      "status": "User: no official launch, no revenue. Historical health-check claims are not receipts.",
+      "status": "Ops/deployment note for P010. Current Cashh source includes live health/readiness/mobile acceptance and branded deployment-trigger changes, but the newest live workflow result and live source match are not yet verified. A health endpoint alone is not launch proof.",
       "proposed_track": "",
-      "next_action": "Re-run live auth/mobile/persistence acceptance and record the result in P010 rather than treating a health endpoint as commercial launch proof.",
+      "next_action": "Verify the latest production-mobile run and the served source revision, then fold the evidence into P010.",
       "done_when": "",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P147",
@@ -1648,22 +1648,22 @@
       "name": "smartpickshop-trend-lab repo",
       "purpose": "Implementation surface for P020 Trend Lab.",
       "type": "Repo. Parent: P020.",
-      "status": "Public repo updated 2026-09-20. Not launched.",
+      "status": "Canonical Trend Lab repo remains active. Current product source reached 60d5ac6e489b9b58f018b39810656d79fc9e8a21 with mobile containment and explicit mobile E2E coverage; private-host verification remains pending.",
       "proposed_track": "",
-      "next_action": "Move the durable v2/database/account-persistence redesign into canonical source, then run signed-in acceptance.",
+      "next_action": "Run current-main E2E/private-host acceptance and record the served source revision plus mobile/desktop evidence.",
       "done_when": "",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P151",
       "name": "EGM4000-Android repo",
       "purpose": "Android/Python companion repo for P045.",
       "type": "Repo. Parent: P045.",
-      "status": "Public, updated 2026-09-21.",
+      "status": "Canonical EGM4000 Android/Web companion repo remains active. Current integration source reached 2af2022b53c92e0711ac8067a5489f47d9581952 with the F.S.A. runtime telemetry bridge workflow/test; current workflow result remains pending.",
       "proposed_track": "",
-      "next_action": "Complete Web/PWA acceptance and one real consenting telemetry session; preserve synthetic vs real-session evidence labels.",
+      "next_action": "Verify the runtime bridge workflow, then complete the authorized non-cash end-to-end acceptance loop.",
       "done_when": "",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P152",
@@ -1703,11 +1703,11 @@
       "name": "AudioHardcore",
       "purpose": "Public Python repo `AudioHardcore` (MIT). Possible overlap with P036 Resonance / audio OS.",
       "type": "Experiment. Parent: P036 (provisional).",
-      "status": "",
+      "status": "AudioHardcore is confirmed as the current repository home for Resonance continuity. The temporary multi-platform acceptance harness has current compatibility fixes through c9bc513477c33a0e26521ef89b338270ab101d07; fresh Android/Windows evidence remains pending.",
       "proposed_track": "",
-      "next_action": "",
+      "next_action": "Run the current Resonance acceptance harness, capture artifacts/results, then verify one library-management workflow.",
       "done_when": "",
-      "source_status": "current_2026-09-25_ledger"
+      "source_status": "continuity_refresh_2026-09-26"
     },
     {
       "id": "P156",
