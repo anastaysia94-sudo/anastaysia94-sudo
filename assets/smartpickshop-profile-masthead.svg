@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090b0e"/><stop offset=".55" stop-color="#161117"/><stop offset="1" stop-color="#071419"/></linearGradient>
+ <linearGradient id="metal"><stop stop-color="#6d3c19"/><stop offset=".45" stop-color="#f2b85f"/><stop offset=".7" stop-color="#8b4d20"/><stop offset="1" stop-color="#d68a35"/></linearGradient>
+ <filter id="cyan"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="pink"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#1b6870" stroke-opacity=".18"/></pattern>
+</defs>
+<rect width="1200" height="360" rx="26" fill="url(#bg)"/><rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+<rect x="18" y="18" width="1164" height="324" rx="22" fill="none" stroke="url(#metal)" stroke-width="5"/>
+<g fill="none" stroke="url(#metal)" stroke-width="7" opacity=".95">
+ <circle cx="105" cy="180" r="68"/><circle cx="105" cy="180" r="35"/><circle cx="1090" cy="180" r="68"/><circle cx="1090" cy="180" r="35"/>
+</g>
+<g stroke="#f2b85f" stroke-width="9"><path d="M105 92v-22M105 290v-22M17 180h22M171 180h22M1090 92v-22M1090 290v-22M1002 180h22M1156 180h22"/></g>
+<path d="M600 48l29 17v34l-29 17-29-17V65z" fill="none" stroke="#20e8ff" stroke-width="5" filter="url(#cyan)"/>
+<path d="M600 58l18 23-18 23-18-23z" fill="#20e8ff" opacity=".75" filter="url(#cyan)"/>
+<text x="600" y="174" text-anchor="middle" fill="url(#metal)" font-family="Georgia,serif" font-size="62" font-weight="700" letter-spacing="5">ANASTAYSIA</text>
+<text x="600" y="222" text-anchor="middle" fill="#20e8ff" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="4" filter="url(#cyan)">@ SMARTPICKSHOP HOLDINGS</text>
+<text x="600" y="270" text-anchor="middle" fill="#ff3bc8" font-family="Arial,sans-serif" font-size="20" letter-spacing="6" filter="url(#pink)">IDEAS • PLANS • PROGRESS • FREEDOM</text>
+<text x="600" y="311" text-anchor="middle" fill="#e8d3b3" font-family="Georgia,serif" font-size="18" letter-spacing="5">IDEAS TODAY. EMPIRES TOMORROW.</text>
+</svg>
