@@ -1,8 +1,8 @@
 # Repository Gap Plan
 
-Updated: 2026-09-25
+Updated: 2026-09-25 23:00 America/Los_Angeles
 
-The connected GitHub integration can modify existing repositories but does not currently expose repository creation. The Windows workstation has Git installed, but no non-interactive stored GitHub credential is available. Therefore these repos are approved **targets**, not falsely claimed creations.
+The connected GitHub integration can modify existing repositories but does not currently expose repository creation. The Windows workstation has Git installed, but no non-interactive stored GitHub credential is available. Therefore these repos are approved **targets**, not falsely claimed creations. Each target now has a prebuilt seed pack under `repo-seeds/<repository-name>/` containing `README.md`, `AI_HANDOFF.md`, `STATUS.md`, `NEXT_ACTIONS.md`, `DECISIONS.md`, and `SOURCE_MANIFEST.md`.
 
 | Proposed repository | Project | Why it deserves its own repo |
 |---|---|---|
@@ -29,3 +29,7 @@ The connected GitHub integration can modify existing repositories but does not c
 ## Creation standard
 
 Each new repo should be seeded with `README.md`, `AI_HANDOFF.md`, `STATUS.md`, `NEXT_ACTIONS.md`, and `DECISIONS.md`. No secrets. Status must distinguish VERIFIED, IN PROGRESS, BLOCKED, and PLANNED.
+
+## Current creation path
+
+Run `scripts/bootstrap_missing_repos.ps1` from an authenticated workstation with GitHub CLI repository-creation permission. Repositories are private by default. After creation, copy the matching `repo-seeds/<repository-name>/` contents into the new repository, verify the default branch and CI/build behavior, then update `portfolio/REPO_MAP.json` from PLANNED to EXISTING. Until those repositories exist, the seed packs are the canonical handoff record.
