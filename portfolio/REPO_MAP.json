@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T23:16:00-07:00",
+  "generated_at": "2026-09-25T23:22:00-07:00",
   "owner": "anastaysia94-sudo",
   "existing": [
     {
@@ -384,9 +384,9 @@
         "portfolio/REPO_MAP.json",
         "scripts/bootstrap_missing_repos.ps1"
       ],
-      "latest_verified_commit_sha": "a5eb976690560f48dc30f9fc001f6b4f2ae9a208",
-      "latest_observed_commit_message": "docs: sync bootstrap to newest source checkpoints",
-      "latest_observed_at": "2026-09-26T06:12:47Z"
+      "latest_verified_commit_sha": "496a10d79b1fcc77059a8b8fc04ee0c2c563ab5b",
+      "latest_observed_commit_message": "docs: record operational P009 cross-LLM continuity",
+      "latest_observed_at": "2026-09-26T06:21:00Z"
     }
   ],
   "planned": [
@@ -481,5 +481,5 @@
     "Oops Academy stays sibling content to snarkyhowtos until independently maintained.",
     "Spanish Fiesta legacy source must be recovered/verified before duplicate repo creation."
   ],
-  "verification_note": "Final cross-LLM continuity snapshot for this pass. latest_verified_commit_sha is the newest repository commit observed during the final sweep. For high-movement repos, project STATUS.md distinguishes source changes from completed verification. Updating this REPO_MAP creates a newer commit in the profile repo itself, so the profile entry is intentionally one commit behind its own map update; use repository HEAD there."
+  "verification_note": "Final continuity snapshot for this pass. Project repositories were swept and high-movement handoffs refreshed. The profile-repository entry is necessarily one commit behind because updating this REPO_MAP creates the next profile commit; use profile repository HEAD for the absolute newest index commit."
 }
