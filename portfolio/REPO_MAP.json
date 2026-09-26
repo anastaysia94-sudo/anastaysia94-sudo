@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T22:48:00-07:00",
+  "generated_at": "2026-09-25T23:05:00-07:00",
   "owner": "anastaysia94-sudo",
   "existing": [
     {
@@ -44,7 +44,7 @@
         "P036"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/AudioHardcore",
-      "latest_verified_commit_sha": "9fc735c0fa0c9ddeda7c43e3784febcd2fa12947",
+      "latest_verified_commit_sha": "e8f3d9e7092278d2066c5fa523a3e423eae7b77e",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -52,8 +52,8 @@
         "DECISIONS.md"
       ],
       "ci_verification": {
-        "state": "failure_visible",
-        "note": "Latest visible Resonance v0.1 PR Acceptance TEMP runs are failing; current main continuity docs were not the failing PR head."
+        "state": "verification_pending_after_source_update",
+        "note": "Resonance temporary PR acceptance workflow changed after the prior failure snapshot. Re-run Linux/Windows bridge generation, analysis, tests, and build before claiming green."
       }
     },
     {
@@ -64,7 +64,7 @@
         "P013"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/cashh-radar",
-      "latest_verified_commit_sha": "a41840ad2fdd54dd31b7f89442d0753a3040b420",
+      "latest_verified_commit_sha": "85fea5ba5f7afce123c3f30b620c7a2a6ea51e84",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -72,8 +72,8 @@
         "DECISIONS.md"
       ],
       "ci_verification": {
-        "state": "last_known_success",
-        "note": "Latest visible Cashh Radar Tests run succeeded; continuity docs did not trigger a fresh run."
+        "state": "verification_pending_after_source_update",
+        "note": "Production mobile acceptance workflow was updated after the prior CI snapshot. Re-run the current workflow before claiming the latest commit green."
       }
     },
     {
@@ -82,7 +82,7 @@
         "P050"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/doubletap-rewards",
-      "latest_verified_commit_sha": "65ebbbbd0fa82c7a862346bce92493494747e649",
+      "latest_verified_commit_sha": "3a4368850edf400d7a482fa537b6010e20244b9f",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -90,8 +90,8 @@
         "DECISIONS.md"
       ],
       "ci_verification": {
-        "state": "in_progress",
-        "note": "Android build is running on the latest continuity commit; an immediately prior Android build succeeded."
+        "state": "real_device_debug_acceptance_verified",
+        "note": "Repository evidence records successful GitHub Actions Android build, debug APK install, and MainActivity launch on a real Android device. Signed production/store release remains unverified."
       }
     },
     {
@@ -119,7 +119,7 @@
         "P048"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/EGM4000-Android",
-      "latest_verified_commit_sha": "b504cbc5cc9cda4c4b875416bb5750da6fb71ca1",
+      "latest_verified_commit_sha": "59f3f3f7c8b9c4586acdb9eb86661c58c79d7c88",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -127,8 +127,8 @@
         "DECISIONS.md"
       ],
       "ci_verification": {
-        "state": "last_known_success",
-        "note": "Latest visible EGM Android emulator and Web/PWA smoke runs succeeded; continuity docs did not trigger fresh runs."
+        "state": "acceptance_boundary_updated",
+        "note": "Latest source documents authorized non-monetary acceptance. Current end-to-end acceptance should be rerun in owned/authorized non-cash environments before claiming the complete gate green."
       }
     },
     {
@@ -176,7 +176,7 @@
         "P016"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/founder-os",
-      "latest_verified_commit_sha": "e42ac1c057b99f5897f64e00acd3ca5f96796581",
+      "latest_verified_commit_sha": "d88fd1428bf4ff4102e95fa0fa84fe8d0ed14b25",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -184,8 +184,8 @@
         "DECISIONS.md"
       ],
       "ci_verification": {
-        "state": "success",
-        "note": "PHP Lint succeeded on the latest continuity commit."
+        "state": "verification_pending_after_source_update",
+        "note": "Obsolete Four-Offer Railway deploy workflow was retired after the prior CI snapshot. Verify the current Supabase storefront/checkout path and Founder OS production acceptance."
       }
     },
     {
@@ -285,7 +285,7 @@
         "P021"
       ],
       "repository_url": "https://github.com/anastaysia94-sudo/smartpickshop-trend-lab",
-      "latest_verified_commit_sha": "28e6e065c019811d52b6f0bc54ef72e46a471111",
+      "latest_verified_commit_sha": "f86d55b1d197470d05d23695c71b6b60eec9b6f5",
       "continuity_files": [
         "AI_HANDOFF.md",
         "STATUS.md",
@@ -293,8 +293,8 @@
         "DECISIONS.md"
       ],
       "ci_verification": {
-        "state": "success_with_other_failure",
-        "note": "verify succeeded on latest continuity commit; a separate browser verify run failed on an earlier commit."
+        "state": "verification_pending_after_source_update",
+        "note": "Playwright private-host authentication handling changed after the prior verification snapshot. Re-run E2E/private-host acceptance."
       }
     },
     {
@@ -442,5 +442,5 @@
     "Oops Academy stays sibling content to snarkyhowtos until independently maintained.",
     "Spanish Fiesta legacy source must be recovered/verified before duplicate repo creation."
   ],
-  "verification_note": "Cross-LLM continuity normalization pass. Latest commit SHAs below are the continuity-document commits created during this pass. CI state is based on visible GitHub Actions runs at verification time. GitHub deployments endpoint is not exposed by the connected GitHub tool, so non-Pages deployment state is not inferred."
+  "verification_note": "Cross-LLM continuity normalization refreshed 2026-09-25 23:05 PT. Repository SHAs record the newest observed source checkpoints. CI/build state is not inferred as green when code changed after the previous verification snapshot. Private Drive IDs and credentials are intentionally excluded."
 }
