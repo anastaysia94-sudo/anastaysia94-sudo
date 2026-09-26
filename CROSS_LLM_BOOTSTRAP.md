@@ -33,8 +33,8 @@ The Drive START HERE document owns the private asset/file index. Public GitHub i
 ## Latest high-movement repository checkpoints
 
 - `EGM4000-Android` — `59f3f3f7c8b9c4586acdb9eb86661c58c79d7c88` — authorized non-monetary acceptance boundary documented.
-- `cashh-radar` — `85fea5ba5f7afce123c3f30b620c7a2a6ea51e84` — live PWA acceptance navigation adjusted away from `networkidle`.
-- `smartpickshop-trend-lab` — `f86d55b1d197470d05d23695c71b6b60eec9b6f5` — private-host Playwright HTTP credentials handling adjusted.
+- `cashh-radar` — `4367dc613fd425e2c2bf1cdc37fc06e0c22b5068` — production-mobile acceptance waits bounded for navigation/body/service-worker checks.
+- `smartpickshop-trend-lab` — `0a8949028aa54f968979078a3ca414b97b703cc6` — development loopback/private-host authentication handling adjusted.
 - `founder-os` — `d88fd1428bf4ff4102e95fa0fa84fe8d0ed14b25` — obsolete Four-Offer Railway deploy workflow retired.
 - `AudioHardcore` — `e8f3d9e7092278d2066c5fa523a3e423eae7b77e` — Resonance bridge generation workflow corrected.
 - `doubletap-rewards` — `3a4368850edf400d7a482fa537b6010e20244b9f` — real-device Android debug install/launch acceptance recorded.
