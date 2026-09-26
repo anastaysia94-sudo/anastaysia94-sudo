@@ -1,24 +1,60 @@
 {
-  "generated_at": "2026-09-25T22:00:00-07:00",
+  "generated_at": "2026-09-25T22:48:00-07:00",
   "owner": "anastaysia94-sudo",
   "existing": [
     {
       "repo": "ai-bridge",
       "projects": [
         "P034"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/ai-bridge",
+      "latest_verified_commit_sha": "d51f5a2f5fbab4e78f690fcbdfa45de9d74dfa1a",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "last_known_success",
+        "note": "Latest visible workflow succeeded; continuity docs did not trigger a fresh run."
+      }
     },
     {
       "repo": "Anarchy-LLM",
       "projects": [
         "Anarchy LLM"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/Anarchy-LLM",
+      "latest_verified_commit_sha": "8d71cbf54071f7d8ab87b63831b31d7a7322393b",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "last_known_success",
+        "note": "Latest visible Anarchy CI run succeeded; continuity docs did not trigger a fresh run."
+      }
     },
     {
       "repo": "AudioHardcore",
       "projects": [
         "P036"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/AudioHardcore",
+      "latest_verified_commit_sha": "9fc735c0fa0c9ddeda7c43e3784febcd2fa12947",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "failure_visible",
+        "note": "Latest visible Resonance v0.1 PR Acceptance TEMP runs are failing; current main continuity docs were not the failing PR head."
+      }
     },
     {
       "repo": "cashh-radar",
@@ -26,32 +62,92 @@
         "P010",
         "P004",
         "P013"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/cashh-radar",
+      "latest_verified_commit_sha": "a41840ad2fdd54dd31b7f89442d0753a3040b420",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "last_known_success",
+        "note": "Latest visible Cashh Radar Tests run succeeded; continuity docs did not trigger a fresh run."
+      }
     },
     {
       "repo": "doubletap-rewards",
       "projects": [
         "P050"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/doubletap-rewards",
+      "latest_verified_commit_sha": "65ebbbbd0fa82c7a862346bce92493494747e649",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "in_progress",
+        "note": "Android build is running on the latest continuity commit; an immediately prior Android build succeeded."
+      }
     },
     {
       "repo": "dumpsteratlas",
       "projects": [
         "P041"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/dumpsteratlas",
+      "latest_verified_commit_sha": "06cdc2b7da9c36c96872a8d24eecd0dfdec1d6b3",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "success",
+        "note": "Dumpster Atlas Quality succeeded on the latest continuity commit."
+      }
     },
     {
       "repo": "EGM4000-Android",
       "projects": [
         "P045",
         "P048"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/EGM4000-Android",
+      "latest_verified_commit_sha": "b504cbc5cc9cda4c4b875416bb5750da6fb71ca1",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "last_known_success",
+        "note": "Latest visible EGM Android emulator and Web/PWA smoke runs succeeded; continuity docs did not trigger fresh runs."
+      }
     },
     {
       "repo": "Firek-clone",
       "projects": [
         "related fish-shooter experiment"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/Firek-clone",
+      "latest_verified_commit_sha": "3915f56e092dd9f67ef35f52975c7639e1c7b5ff",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "last_known_success",
+        "note": "Latest visible Build PartyTeller APK run succeeded; continuity docs did not trigger a fresh run."
+      }
     },
     {
       "repo": "fish-shooter-arcade",
@@ -59,112 +155,261 @@
         "P046",
         "P047",
         "P048"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/fish-shooter-arcade",
+      "latest_verified_commit_sha": "d161c3ba21e89691091c8847b0e54c8f37796fb7",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "success",
+        "note": "Release, gameplay, and Founder Backend validation all succeeded on the latest continuity commit."
+      }
     },
     {
       "repo": "founder-os",
       "projects": [
         "P002",
         "P016"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/founder-os",
+      "latest_verified_commit_sha": "e42ac1c057b99f5897f64e00acd3ca5f96796581",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "success",
+        "note": "PHP Lint succeeded on the latest continuity commit."
+      }
     },
     {
       "repo": "human-operating-system-institute",
       "projects": [
         "P039"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/human-operating-system-institute",
+      "latest_verified_commit_sha": "f1768e1c0a062c199229cc9d7e1e85d331054f36",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md (pre-existing)",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "last_known_success",
+        "note": "Latest visible HOSI Atlas QA runs succeeded; continuity docs did not trigger a fresh run."
+      }
     },
     {
       "repo": "impound-ransom",
       "projects": [
         "Impound Ransom"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/impound-ransom",
+      "latest_verified_commit_sha": "eda92998f94a6300e1e2e01e6d4589352c41091b",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "success",
+        "note": "Push on main succeeded on the latest continuity commit."
+      }
     },
     {
       "repo": "manila",
       "projects": [
         "Manila"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/manila",
+      "latest_verified_commit_sha": "a53116405750706e568abb1c87d3d63ecd27fbcf",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "last_known_success",
+        "note": "Latest visible Manila Quality Gate succeeded; continuity docs did not trigger a fresh run."
+      }
     },
     {
       "repo": "same-beat",
       "projects": [
         "P037"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/same-beat",
+      "latest_verified_commit_sha": "daabfb6e3dd292e246bbc24cf75c31ffb30f345f",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "last_known_success",
+        "note": "Latest visible SameBeat CI succeeded; continuity docs did not trigger a fresh run."
+      }
     },
     {
       "repo": "san-jose-prospecting-pwa",
       "projects": [
         "San Jose / Santa Clara Prospecting PWA"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/san-jose-prospecting-pwa",
+      "latest_verified_commit_sha": "1d952593bb451bd5663c241ef32db44335df515a",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "no_runs",
+        "note": "No GitHub Actions runs exist."
+      }
     },
     {
       "repo": "smartpickshop-trend-lab",
       "projects": [
         "P020",
         "P021"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/smartpickshop-trend-lab",
+      "latest_verified_commit_sha": "28e6e065c019811d52b6f0bc54ef72e46a471111",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "success_with_other_failure",
+        "note": "verify succeeded on latest continuity commit; a separate browser verify run failed on an earlier commit."
+      }
     },
     {
       "repo": "snarkyhowtos",
       "projects": [
         "P054",
         "P053 sibling content"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/snarkyhowtos",
+      "latest_verified_commit_sha": "011bd06cdac7458032cb0e4666386f68698cb189",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "success",
+        "note": "Quality and Pages deployment succeeded on latest continuity commit; a separate dynamic docs run was still in progress when checked."
+      }
     },
     {
       "repo": "anastaysia94-sudo.github.io",
       "projects": [
         "Portfolio / Field OS"
-      ]
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/anastaysia94-sudo.github.io",
+      "latest_verified_commit_sha": "8e835c76510a0429fded3797fbe4307d1ea4fe9f",
+      "continuity_files": [
+        "AI_HANDOFF.md",
+        "STATUS.md",
+        "NEXT_ACTIONS.md",
+        "DECISIONS.md"
+      ],
+      "ci_verification": {
+        "state": "success",
+        "note": "Pages build and deployment succeeded on latest continuity commit."
+      }
     },
     {
       "repo": "anastaysia94-sudo",
       "projects": [
         "P009 continuity index"
+      ],
+      "repository_url": "https://github.com/anastaysia94-sudo/anastaysia94-sudo",
+      "continuity_files": [
+        "README.md",
+        "PORTFOLIO_CONTINUITY.md",
+        "portfolio/PROJECTS.json",
+        "portfolio/REPO_GAPS.md",
+        "portfolio/REPO_MAP.json",
+        "scripts/bootstrap_missing_repos.ps1"
       ]
     }
   ],
   "planned": [
     {
       "repo": "smartpickshop-project-continuity",
-      "project": "P009"
+      "project": "P009",
+      "repository_url": "https://github.com/anastaysia94-sudo/smartpickshop-project-continuity",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "corporate-hieroglyphics-lnc",
-      "project": "P007"
+      "project": "P007",
+      "repository_url": "https://github.com/anastaysia94-sudo/corporate-hieroglyphics-lnc",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "promotion-engine",
-      "project": "P018"
+      "project": "P018",
+      "repository_url": "https://github.com/anastaysia94-sudo/promotion-engine",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "remote-career-command-center",
-      "project": "P022"
+      "project": "P022",
+      "repository_url": "https://github.com/anastaysia94-sudo/remote-career-command-center",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "wastebounty",
-      "project": "P025"
+      "project": "P025",
+      "repository_url": "https://github.com/anastaysia94-sudo/wastebounty",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "ptedboss",
-      "project": "P035"
+      "project": "P035",
+      "repository_url": "https://github.com/anastaysia94-sudo/ptedboss",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "sugarrush-slasher",
-      "project": "P049"
+      "project": "P049",
+      "repository_url": "https://github.com/anastaysia94-sudo/sugarrush-slasher",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "fulfillment-checker",
-      "project": "P123"
+      "project": "P123",
+      "repository_url": "https://github.com/anastaysia94-sudo/fulfillment-checker",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "ai-nexus",
-      "project": "P125"
+      "project": "P125",
+      "repository_url": "https://github.com/anastaysia94-sudo/ai-nexus",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     },
     {
       "repo": "micro-snipe-board",
-      "project": "P140"
+      "project": "P140",
+      "repository_url": "https://github.com/anastaysia94-sudo/micro-snipe-board",
+      "creation_status": "BLOCKED: repository does not yet exist; connected GitHub tool exposes no create-repository action"
     }
   ],
   "hold_until_source_or_mvp": [
@@ -196,5 +441,6 @@
     "Resonance stays in AudioHardcore.",
     "Oops Academy stays sibling content to snarkyhowtos until independently maintained.",
     "Spanish Fiesta legacy source must be recovered/verified before duplicate repo creation."
-  ]
+  ],
+  "verification_note": "Cross-LLM continuity normalization pass. Latest commit SHAs below are the continuity-document commits created during this pass. CI state is based on visible GitHub Actions runs at verification time. GitHub deployments endpoint is not exposed by the connected GitHub tool, so non-Pages deployment state is not inferred."
 }
