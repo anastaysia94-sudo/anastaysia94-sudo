@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-09-25T22:00:00-07:00",
+  "owner": "anastaysia94-sudo",
+  "existing": [
+    {
+      "repo": "ai-bridge",
+      "projects": [
+        "P034"
+      ]
+    },
+    {
+      "repo": "Anarchy-LLM",
+      "projects": [
+        "Anarchy LLM"
+      ]
+    },
+    {
+      "repo": "AudioHardcore",
+      "projects": [
+        "P036"
+      ]
+    },
+    {
+      "repo": "cashh-radar",
+      "projects": [
+        "P010",
+        "P004",
+        "P013"
+      ]
+    },
+    {
+      "repo": "doubletap-rewards",
+      "projects": [
+        "P050"
+      ]
+    },
+    {
+      "repo": "dumpsteratlas",
+      "projects": [
+        "P041"
+      ]
+    },
+    {
+      "repo": "EGM4000-Android",
+      "projects": [
+        "P045",
+        "P048"
+      ]
+    },
+    {
+      "repo": "Firek-clone",
+      "projects": [
+        "related fish-shooter experiment"
+      ]
+    },
+    {
+      "repo": "fish-shooter-arcade",
+      "projects": [
+        "P046",
+        "P047",
+        "P048"
+      ]
+    },
+    {
+      "repo": "founder-os",
+      "projects": [
+        "P002",
+        "P016"
+      ]
+    },
+    {
+      "repo": "human-operating-system-institute",
+      "projects": [
+        "P039"
+      ]
+    },
+    {
+      "repo": "impound-ransom",
+      "projects": [
+        "Impound Ransom"
+      ]
+    },
+    {
+      "repo": "manila",
+      "projects": [
+        "Manila"
+      ]
+    },
+    {
+      "repo": "same-beat",
+      "projects": [
+        "P037"
+      ]
+    },
+    {
+      "repo": "san-jose-prospecting-pwa",
+      "projects": [
+        "San Jose / Santa Clara Prospecting PWA"
+      ]
+    },
+    {
+      "repo": "smartpickshop-trend-lab",
+      "projects": [
+        "P020",
+        "P021"
+      ]
+    },
+    {
+      "repo": "snarkyhowtos",
+      "projects": [
+        "P054",
+        "P053 sibling content"
+      ]
+    },
+    {
+      "repo": "anastaysia94-sudo.github.io",
+      "projects": [
+        "Portfolio / Field OS"
+      ]
+    },
+    {
+      "repo": "anastaysia94-sudo",
+      "projects": [
+        "P009 continuity index"
+      ]
+    }
+  ],
+  "planned": [
+    {
+      "repo": "smartpickshop-project-continuity",
+      "project": "P009"
+    },
+    {
+      "repo": "corporate-hieroglyphics-lnc",
+      "project": "P007"
+    },
+    {
+      "repo": "promotion-engine",
+      "project": "P018"
+    },
+    {
+      "repo": "remote-career-command-center",
+      "project": "P022"
+    },
+    {
+      "repo": "wastebounty",
+      "project": "P025"
+    },
+    {
+      "repo": "ptedboss",
+      "project": "P035"
+    },
+    {
+      "repo": "sugarrush-slasher",
+      "project": "P049"
+    },
+    {
+      "repo": "fulfillment-checker",
+      "project": "P123"
+    },
+    {
+      "repo": "ai-nexus",
+      "project": "P125"
+    },
+    {
+      "repo": "micro-snipe-board",
+      "project": "P140"
+    }
+  ],
+  "hold_until_source_or_mvp": [
+    {
+      "project": "P017",
+      "name": "Instant Decision Bot"
+    },
+    {
+      "project": "P030",
+      "name": "Money Forge AI X"
+    },
+    {
+      "project": "P042",
+      "name": "PokéScan X"
+    },
+    {
+      "project": "P126",
+      "name": "TikTok Creative Engine"
+    },
+    {
+      "project": "P127-P136",
+      "name": "Named SaaS concept family"
+    }
+  ],
+  "ownership_rules": [
+    "Sales OS stays with cashh-radar.",
+    "Founder Console stays with fish-shooter-arcade.",
+    "Four-Offer Launch stays in founder-os until a deliberate verified migration.",
+    "Resonance stays in AudioHardcore.",
+    "Oops Academy stays sibling content to snarkyhowtos until independently maintained.",
+    "Spanish Fiesta legacy source must be recovered/verified before duplicate repo creation."
+  ]
+}
