@@ -1,1119 +1,1543 @@
 {
-  "generated_at": "2026-09-25T22:00:00-07:00",
-  "source": "Master Project Register — SmartPickShop (Drive) + live GitHub repository reconciliation",
-  "project_count": 142,
+  "generated_at": "2026-09-25T22:45:00-07:00",
+  "source": "Master Project Ledger — SmartPickShop — CURRENT — 2026-09-25 (Google Drive), merged with legacy continuity records for IDs absent from the current ledger",
+  "project_count": 161,
+  "current_ledger_project_count": 158,
+  "recovered_legacy_ids": [
+    "P140",
+    "P141",
+    "P142"
+  ],
+  "max_project_id": 161,
   "projects": [
     {
       "id": "P001",
       "name": "SmartPickShop Holdings",
       "purpose": "Software, commerce, services, education and creative products under a common portfolio.",
-      "type": "Umbrella. Parent: none assigned.",
+      "type": "Umbrella; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Locate brand and ownership records; keep legal formation unverified."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Locate brand and ownership records; keep legal formation unverified.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P002",
       "name": "Founder Dynasty OS",
       "purpose": "An operating system for developing and running businesses; all Founder OS versions belong together.",
-      "type": "Product. Parent: P001.",
+      "type": "Product; parent P001.",
       "status": "Not officially launched — user confirmed. Historical chats report authentication, persistence, portfolio work and deployment; none has been freshly executed here. Sales OS progress must no longer count as Founder OS progress.",
-      "next_action": "Recover the actual build; exercise one business assessment → decision → saved action workflow; test account isolation and save/restore; define onboarding and support."
+      "proposed_track": "Core product. High sustained importance: extensive repeated architecture, versions and corrections.",
+      "next_action": "Complete a genuine production-user acceptance suite: sign-in, reset, Business A/B isolation, persistence/restore, and mobile acceptance.",
+      "done_when": "A new user can complete and resume the core business workflow without assistance; release blockers are resolved.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P003",
       "name": "Founder OS portfolio management",
       "purpose": "Multi-business records and portfolio-level decisions.",
-      "type": "Module. Parent: P002.",
+      "type": "Module; parent P002.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Verify two independent business records can be saved and restored."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Verify two independent business records can be saved and restored.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P004",
       "name": "Sales OS",
       "purpose": "Sales execution and tracking for Cashh Radar; completely separate from Founder Dynasty OS.",
-      "type": "Module. Parent: P010.",
+      "type": "Module; parent P010.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Inventory all Sales OS updates and map their intended Cashh Radar destination."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Finish ownership audit of Sales OS files/commits, keep them under Cashh Radar, and verify one lead/opportunity through recorded outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P005",
       "name": "Founder Dynasty education and licensing",
       "purpose": "Certifications, memberships, sprints and licensing built around the Founder ecosystem.",
-      "type": "Program. Parent: P002.",
+      "type": "Program; parent P002.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Select one teachable outcome and recover its actual curriculum."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Select one teachable outcome and recover its actual curriculum.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P006",
       "name": "SmartPickShop Shopify store",
       "purpose": "The retail storefront and product-listing operation.",
-      "type": "Commerce. Parent: P001.",
+      "type": "Commerce; parent P001.",
       "status": "Not officially launched — user confirmed. Existing-store references do not equal an official launch or current sales. A newly recovered old message mentions Sellvia sales in the past; preserve separately from the current zero-revenue statement.",
-      "next_action": "Verify access, one selected product, actual fulfillment cash timing, listing, checkout, delivery and support."
+      "proposed_track": "Commerce track. Repeated storefront, marketplace and zero-upfront fulfillment attention.",
+      "next_action": "Verify access, one selected product, actual fulfillment cash timing, listing, checkout, delivery and support.",
+      "done_when": "One customer can order and receive the product under a financially workable process.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P007",
       "name": "Corporate Hieroglyphics / LNC",
       "purpose": "A notebook method for actions, evidence, money, decisions and learning.",
-      "type": "System. Parent: P009.",
+      "type": "System; parent P009.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Produce a single reusable weekly page tied to register IDs."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Produce a single reusable weekly page tied to register IDs.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P008",
       "name": "Portfolio journal / NPA pages",
       "purpose": "Handwritten project action sheets and writing practice.",
-      "type": "Module. Parent: P007.",
+      "type": "Module; parent P007.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Connect each active page to a concrete deliverable and evidence link."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Connect each active page to a concrete deliverable and evidence link.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P009",
       "name": "Master project register / Atlas / Wiki",
       "purpose": "A durable source-linked portfolio record preserving even small ideas.",
-      "type": "System. Parent: P001.",
-      "status": "Active canonical system. The cloud master exists in Google Drive, stable IDs are maintained, and the September 23 asset-recovery/current-activity passes are recorded. Automatic refresh is not configured.",
-      "next_action": "Maintain import manifests for each LLM/account export, reconcile projects by stable ID, alias and evidence, and keep dated delta logs plus portable Markdown/JSON backups."
+      "type": "System; parent P001.",
+      "status": "Not officially launched — user confirmed. This local register is created and validated in this task; canonical Google Doc has now been created and read back.",
+      "proposed_track": "Portfolio foundation. Explicit user must-have: durable register, evidence, inferred priorities and historical recovery.",
+      "next_action": "Use this current register as the canonical portfolio record and append verified changes after each material execution block rather than waiting for projects to finish.",
+      "done_when": "The canonical register has a known owner/location, recoverable backups and an update log.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P010",
       "name": "Cashh Radar",
       "purpose": "Evidence-based opportunity discovery, scoring, outreach and outcome tracking, including Sales OS.",
-      "type": "Product. Parent: P001.",
+      "type": "Product; parent P001.",
       "status": "Not officially launched — user confirmed. Historical lead packages, a repository/deployment reference and sales workflows exist in chat. All Sales OS updates are logically assigned here, but code migration has not been performed.",
-      "next_action": "Inventory Sales OS commits/files, tag intended ownership Cashh Radar, inspect whether any are implemented in the wrong repository, then verify opportunity → source → score → outreach draft → recorded outcome."
+      "proposed_track": "Core product + revenue support. High sustained importance: repeated opportunity research and user correction assigning Sales OS here.",
+      "next_action": "Re-record full live route/auth/mobile/persistence acceptance and then validate one opportunity-to-recorded-outcome workflow with a real user/customer context.",
+      "done_when": "One real opportunity can be evaluated and followed through without invented leads or results.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P011",
       "name": "Ultimate Money-Maker / Opportunity Intelligence Platform",
       "purpose": "A broader opportunity-discovery and monetization concept; relationship to Cashh Radar unresolved.",
-      "type": "Candidate. Parent: none assigned.",
+      "type": "Candidate; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Compare source requirements before deciding whether this is a separate product or alias."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Compare source requirements before deciding whether this is a separate product or alias.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P012",
       "name": "Fast Cash Command Center",
       "purpose": "Finding and delivering small remote services for near-term income.",
-      "type": "Program. Parent: none assigned.",
+      "type": "Program; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover one deliverable that can be sold and fulfilled now, with a clear price and scope."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover one deliverable that can be sold and fulfilled now, with a clear price and scope.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P013",
       "name": "Sales Engine / Live Lead CRM",
       "purpose": "Prospect research and outreach tracking; likely related to the corrected Cashh Radar sales branch.",
-      "type": "Related system. Parent: P010.",
+      "type": "Related system; parent P010.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Identify the current dataset, remove duplicates and confirm integration boundaries."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Finish the current lead batch, reconcile replies/delivery outcomes, and record any genuine paid result separately from sends or interest.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P014",
       "name": "Same-Day Customer Growth Pack",
       "purpose": "Social copy, review replies and follow-up graphics for local businesses.",
-      "type": "Offer. Parent: none assigned.",
+      "type": "Offer; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover one complete sample and define a fixed delivery promise."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover one complete sample and define a fixed delivery promise.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P015",
       "name": "$500 Outreach Sprint",
       "purpose": "A lead-package sales experiment for contractor and property-manager prospects.",
-      "type": "Experiment. Parent: none assigned.",
+      "type": "Experiment; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Verify the deliverable and recipient relevance before preparing any new outreach."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Verify the deliverable and recipient relevance before preparing any new outreach.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P016",
       "name": "Four-Offer Launch",
       "purpose": "A storefront and independent digital-product delivery effort.",
-      "type": "Launch package. Parent: none assigned.",
+      "type": "Launch package; parent none assigned.",
       "status": "Not officially launched — user confirmed. Last historical report: one of four gates passed, Vercel access blocked, hosted checks and a test purchase outstanding.",
-      "next_action": "Recover exact four products and files; restore authorized hosting access; verify one offer page → test checkout → correct delivery → support/refund path."
+      "proposed_track": "First-payment candidate. Potentially short path because chats report product packaging and delivery tests; access and exact offer identity remain unresolved.",
+      "next_action": "Secure an authorized hosting slot/access, deploy, verify `/health` + `/ready`, then complete sandbox purchase, capture, ledger entry, ZIP delivery/checksum, and support/refund path.",
+      "done_when": "One specific product can be purchased and delivered reliably; then verify the other three.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P017",
       "name": "Instant Decision Bot",
       "purpose": "Paid intake followed by a useful decision-support result.",
-      "type": "Product. Parent: none assigned.",
+      "type": "Product; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the backend and verify intake, payment and result delivery together."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the backend and verify intake, payment and result delivery together.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P018",
       "name": "Promotion Engine",
       "purpose": "Private planning for distribution channels, rules, drafts and next actions.",
-      "type": "System. Parent: none assigned.",
+      "type": "System; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the channel workbook and prepare one product-specific distribution sequence."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Reverify rules for one eligible free route, submit once, retain the receipt/evidence, and update tracking. Reddit remains excluded.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P019",
       "name": "Social publishing / Metricool",
       "purpose": "Business-account connections and publishing workflow.",
-      "type": "Workstream. Parent: P018.",
+      "type": "Workstream; parent P018.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Verify account connections and prepare a launch content batch."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Finish remaining account branding/authentication, connect eligible networks to Metricool, and complete desktop/mobile live QA.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P020",
       "name": "SmartPickShop Trend Lab",
       "purpose": "Evidence-based niche intelligence for digital and social content.",
-      "type": "Product. Parent: P001.",
-      "status": "Not officially launched — user confirmed. A build-ready V2 implementation package, Opportunity entity schema and solo-founder/mobile-first roadmap are now documented and filed; no production build or live user flow is verified.",
-      "next_action": "Hand the implementation package into a builder/repository workflow and implement the first MVP slice with source traceability, Opportunity persistence and exportable reporting."
+      "type": "Product; parent P001.",
+      "status": "Not officially launched — user confirmed. V2 implementation documents and Opportunity entity schema are discussed in the refreshed chats; no production build is verified.",
+      "proposed_track": "Core product. Strong recent focus: repeated buyer research, V2 documentation and planned parallel work with AI Nexus.",
+      "next_action": "Reconcile the canonical scoring/evidence/confidence model, implement durable database/account persistence, then run signed-in mobile/desktop acceptance.",
+      "done_when": "A target user can produce and export a useful report with source traceability.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P021",
       "name": "Niche Intelligence / Trend Analysis PWA",
       "purpose": "The research, scoring, content-planning and reporting specification for Trend Lab.",
-      "type": "Specification. Parent: P020.",
+      "type": "Specification; parent P020.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Reconcile the earlier PWA specification with Trend Lab V2 rather than duplicate the product."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Reconcile the earlier PWA specification with Trend Lab V2 rather than duplicate the product.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P022",
       "name": "Remote Career Command Center",
       "purpose": "Job research, portfolio materials, resumes and application planning.",
-      "type": "Program. Parent: none assigned.",
+      "type": "Program; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover current application materials and distinguish submitted applications from drafts."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Continue California-friendly remote scans and maintain a clean distinction between submitted applications, drafts, and opportunities.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P023",
       "name": "FILE911",
       "purpose": "Repairing rejected or unsuitable print-production files.",
-      "type": "Service. Parent: none assigned.",
+      "type": "Service; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Validate one before-and-after sample and define acceptance criteria."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Validate one before-and-after sample and define acceptance criteria.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P024",
       "name": "CLOSEOUT911",
       "purpose": "Contractor closeout-document indexes, missing-item registers and handover packages.",
-      "type": "Service. Parent: none assigned.",
+      "type": "Service; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover a sample package and define exactly what a first engagement includes."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover a sample package and define exactly what a first engagement includes.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P025",
       "name": "WASTEBounty",
       "purpose": "Software, SaaS, AI and cloud-spend reviews tied to mutually verified savings.",
-      "type": "Service. Parent: none assigned.",
-      "status": "Not officially launched — user confirmed. September 22–23 lead-response review and follow-up preparation resumed; proposal/reply evidence is being reconciled from connected email/CRM context. No new send, CRM mutation or sale is recorded here without explicit approval.",
-      "next_action": "Finish a per-lead response ledger, verify any actual replies and alternate contact research such as SV Chimney Sweep, then present drafts for approval before sending or modifying external records."
+      "type": "Service; parent none assigned.",
+      "status": "Not officially launched — user confirmed. Earlier chats describe an initial package sent to Cognos and V2 remaining draft. A newer chat failed to find WasteBounty in lemlist and confused it with an unrelated cleanup product; that is not evidence the earlier exchange never happened.",
+      "proposed_track": "First-payment candidate. Strongest recovered prospect signal: an earlier conversation records a request to receive information. Time-sensitive and worth checking first; not a proven sale.",
+      "next_action": "Reconcile replies, verify the public/pilot delivery path, run the workflow on real client data only with permission, and record signed terms/payment separately.",
+      "done_when": "A customer can understand and accept the scope, safely provide needed data, and receive an auditable report.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P026",
       "name": "GhostAsset Recovery",
       "purpose": "Researching business unclaimed-property opportunities.",
-      "type": "Service idea. Parent: none assigned.",
+      "type": "Service idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover official-record evidence before treating any lead as qualified."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover official-record evidence before treating any lead as qualified.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P027",
       "name": "PatentBounty Hunter",
       "purpose": "Prior-art research for paid opportunities.",
-      "type": "Service idea. Parent: none assigned.",
+      "type": "Service idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Identify a current, suitable research opportunity and recover prior work."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Identify a current, suitable research opportunity and recover prior work.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P028",
       "name": "Bay Area Content Studio",
       "purpose": "Local-business AI-assisted content and marketing packages.",
-      "type": "Service. Parent: none assigned.",
+      "type": "Service; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Consolidate samples into one deliverable with a clear customer outcome."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Consolidate samples into one deliverable with a clear customer outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P029",
       "name": "Agency in a Box / Local Traffic Acquisition Machine",
       "purpose": "Repeatable agency lead research, CRM, content, outreach and client delivery.",
-      "type": "System. Parent: P028.",
+      "type": "System; parent P028.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover usable assets before investing in more automation."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover usable assets before investing in more automation.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P030",
       "name": "Money Forge AI X",
       "purpose": "A mobile AI workspace for resumes, marketing, listings, clients, earnings and design.",
-      "type": "Product idea. Parent: none assigned.",
+      "type": "Product idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Separate the large specification from implemented functionality; choose one working workflow."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Separate the large specification from implemented functionality; choose one working workflow.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P031",
       "name": "Money Ops Console / FiveSurveys trial",
       "purpose": "Reward-account and payout tracking.",
-      "type": "Experiment. Parent: none assigned.",
+      "type": "Experiment; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Record actual verified payouts separately from earnings targets."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Record actual verified payouts separately from earnings targets.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P032",
       "name": "Online Income Playbook",
       "purpose": "A personalized collection of income models and implementation plans.",
-      "type": "Publication. Parent: none assigned.",
+      "type": "Publication; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the manuscript and turn one chapter into a usable evidence-based guide."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the manuscript and turn one chapter into a usable evidence-based guide.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P033",
       "name": "$1 Customer Challenge",
       "purpose": "A small merchant-funded promotion or credit concept.",
-      "type": "Experiment. Parent: none assigned.",
+      "type": "Experiment; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the exact intended offer before developing it further."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the exact intended offer before developing it further.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P034",
       "name": "AI Bridge",
       "purpose": "Cross-AI context, prompt, file and contribution coordination.",
-      "type": "Product idea. Parent: none assigned.",
+      "type": "Product idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Compare requirements with AI Nexus and define a single handoff proof before broad synchronization."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Implement one persisted two-provider synthesis slice and reconcile stale AI Bridge status files against the current register.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P035",
       "name": "PTEDBoss / PartyTeller",
       "purpose": "Mobile tasks, work evidence, receipts, expenses and boss reports for Matthew.",
-      "type": "Product. Parent: none assigned.",
+      "type": "Product; parent none assigned.",
       "status": "Not officially launched — user confirmed. Historical signed v3.1.1 build claim; last recorded checklist 4 passed, 2 failed, 18 untested. Later fixes require retesting.",
-      "next_action": "Recover APK and checklist; retest deletion/receipt preservation and icon issues; finish task, receipt, expense and boss-report flows on a phone."
+      "proposed_track": "Near-launch product. High practical importance: a named intended user, real device feedback and a recorded test list.",
+      "next_action": "Recover APK and checklist; retest deletion/receipt preservation and icon issues; finish task, receipt, expense and boss-report flows on a phone.",
+      "done_when": "Matthew can record work, preserve receipts and produce a usable report; essential tests pass.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P036",
       "name": "Resonance Digital Audio OS / Collector",
       "purpose": "Audio-library management with collector and audiophile phases.",
-      "type": "Product idea. Parent: none assigned.",
+      "type": "Product idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Locate real source and a runnable build, then define one library-management workflow."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Locate real source and a runnable build, then define one library-management workflow.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P037",
       "name": "Same-Beat",
       "purpose": "Song identification and supported-service playback synchronization.",
-      "type": "Product idea. Parent: none assigned.",
+      "type": "Product idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the MVP and verify supported playback synchronization."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Run a real-provider, real-device end-to-end synchronization test with valid credentials.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P038",
       "name": "i-Toon / i-Toonez",
       "purpose": "An iTunes-like Android concept; relationship to other audio products unresolved.",
-      "type": "Idea. Parent: none assigned.",
+      "type": "Idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Preserve the original concept and compare it with the audio products before merging."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Preserve the original concept and compare it with the audio products before merging.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P039",
       "name": "HOSI",
       "purpose": "Human Operating System Institute: learning about cognition, emotion and behavior.",
-      "type": "Education product. Parent: none assigned.",
+      "type": "Education product; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the curriculum and create one complete introductory learning experience."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Complete content review, resolve requested changes, rerun QA, and only then merge/release.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P040",
       "name": "Spanish Fiesta",
       "purpose": "A language-learning application with a previously referenced repository.",
-      "type": "Product. Parent: none assigned.",
+      "type": "Product; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the repository and test one complete lesson."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the repository and test one complete lesson.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P041",
       "name": "Dumpster Atlas",
       "purpose": "Location-based discovery of recoverable resources with categories and community moderation.",
-      "type": "Product idea. Parent: none assigned.",
+      "type": "Product idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover starter files and implement one map/search flow with trustworthy data."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover starter files and implement one map/search flow with trustworthy data.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P042",
       "name": "PokéScan X",
       "purpose": "Offline-oriented Pokémon card scanning and collection management.",
-      "type": "Product idea. Parent: none assigned.",
+      "type": "Product idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Build and validate a small real-card recognition prototype."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Build and validate a small real-card recognition prototype.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P043",
       "name": "Browser Android Emulator / Vidius",
       "purpose": "Exploring Android execution in a browser.",
-      "type": "Experiment. Parent: none assigned.",
+      "type": "Experiment; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Find any runnable proof and document its actual limits."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Find any runnable proof and document its actual limits.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P044",
       "name": "AAYSAAGP Bot",
       "purpose": "A recovered bot name without enough evidence to define its function.",
-      "type": "Name-only idea. Parent: none assigned.",
+      "type": "Name-only idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Locate the originating request; leave function unknown until supported."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Locate the originating request; leave function unknown until supported.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P045",
       "name": "EGM4000 / EduGameMaster4000",
       "purpose": "Gaming analytics, coaching, replay and community tools; earlier EGM versions stay in this lineage.",
-      "type": "Product. Parent: none assigned.",
+      "type": "Product; parent none assigned.",
       "status": "Not officially launched — user confirmed. Historical Android/web/backend claims and simulated usage; simulated users are not customers.",
-      "next_action": "Recover components and test real gameplay telemetry through a useful coaching result."
+      "proposed_track": "Parallel game track. Strong recurring technical and creative focus.",
+      "next_action": "Fix/rerun Web/PWA acceptance and complete one real consenting gameplay telemetry session. Keep EGM4000 and F.S.A. as separate products.",
+      "done_when": "An actual supported session produces accurate, useful feedback.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P046",
       "name": "Fish Shooter Arcade / F.S.A.",
       "purpose": "A neon underwater arcade with virtual credits, fish tables, weapons and missions.",
-      "type": "Game. Parent: none assigned.",
+      "type": "Game; parent none assigned.",
       "status": "Not officially launched — user confirmed. Historical deployment and screenshot checks; not an official launch, per current user.",
-      "next_action": "Test start/play/reward/persistence on supported devices and recover the release checklist."
+      "proposed_track": "Parallel game track. Repeated game design and acceptance work suggests sustained personal importance.",
+      "next_action": "Run genuine phone and desktop gameplay/release acceptance and preserve evidence.",
+      "done_when": "A complete stable game loop works for an external tester.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P047",
       "name": "Fish Shooter Alliance / Founder Console",
       "purpose": "Game administration and control features, separate from the FDOS command center.",
-      "type": "Module. Parent: P046.",
+      "type": "Module; parent P046.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Confirm owner roles and administrative operations in the actual game build."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Establish the canonical repo, record owner/admin scope, and create the first verified checkpoint/release.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P048",
       "name": "EGM–FSA learning integration",
       "purpose": "Gameplay telemetry feeding analysis and coaching.",
-      "type": "Integration. Parent: P045.",
+      "type": "Integration; parent P045.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Test ingestion, identity handling and one useful feedback result against a real game session."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Test ingestion, identity handling and one useful feedback result against a real game session.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P049",
       "name": "SugarRush Slasher",
       "purpose": "An Android punk-carnival action game with waves, bosses, combos and finishers.",
-      "type": "Game. Parent: none assigned.",
+      "type": "Game; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover source, compile an APK and test the first playable loop on a device."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Compile one reachable installable build and run device acceptance before expanding content.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P050",
       "name": "DoubleTap Rewards OS — Cash Carnage Edition",
       "purpose": "The combined DoubleTap, DoubleDip and RewardPilot product lineage.",
-      "type": "Product. Parent: none assigned.",
+      "type": "Product; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the foundation and verify the actually implemented reward-tracking flow."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Reconcile/merge the repair PR as appropriate, retrieve/verify artifacts, install-smoke on emulator/device, then complete signed release and Play/privacy declaration gates.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P051",
       "name": "Original physical trading-card game",
       "purpose": "An original card game and printed-card product.",
-      "type": "Game idea. Parent: none assigned.",
+      "type": "Game idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover rules and produce a small playable paper prototype."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover rules and produce a small playable paper prototype.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P052",
       "name": "Ultimate_DAN repository experiment",
       "purpose": "An older placeholder software branch rather than a verified independent product.",
-      "type": "Experiment. Parent: P045.",
+      "type": "Experiment; parent P045.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Inspect the repository before assigning any implementation status."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Inspect the repository before assigning any implementation status.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P053",
       "name": "Oops Academy",
       "purpose": "Kid-oriented sister YouTube channel to Snarky How-Tos, adapting the same content topics.",
-      "type": "Channel. Parent: none assigned. Sister channel: P054.",
+      "type": "Channel; parent none assigned.",
       "status": "Not officially launched — user confirmed. Kid-oriented sister channel confirmed now; historical content counts are planning targets, not completed episodes.",
-      "next_action": "Choose one Snarky How-Tos topic and adapt the script, humor, examples, visuals and metadata for children."
+      "proposed_track": "Parallel creative track. Current explicit channel relationship plus older sustained content planning.",
+      "next_action": "Choose one Snarky How-Tos topic and adapt the script, humor, examples, visuals and metadata for children.",
+      "done_when": "A complete, reviewed kid-oriented companion episode is ready for publication.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P054",
       "name": "Snarky How-Tos",
       "purpose": "The general-audience sarcastic how-to channel with Oops Academy as its kid-oriented sister.",
-      "type": "Channel. Parent: none assigned. Sister channel: P053.",
+      "type": "Channel; parent none assigned.",
       "status": "Not officially launched — user confirmed. Scripts, formats and extensive plans appear in the archive; no official launch.",
-      "next_action": "Recover the best existing topic and finish the adult/general-audience episode alongside its Oops Academy adaptation."
+      "proposed_track": "Parallel creative track. A recurring creative brand with a clarified sibling relationship.",
+      "next_action": "Recover the best existing topic and finish the adult/general-audience episode alongside its Oops Academy adaptation.",
+      "done_when": "One complete episode package and its companion are ready, with a repeatable production checklist.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P055",
       "name": "KDP ebook catalog",
       "purpose": "Sarcastic PG-13 ebooks under Anastaysia B. Galaviz, with covers and interior variants.",
-      "type": "Publication portfolio. Parent: none assigned.",
+      "type": "Publication portfolio; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Select the strongest existing manuscript and finish one publishable book."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Select the strongest existing manuscript and finish one publishable book.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P056",
       "name": "Premium 12-month planner",
       "purpose": "A richly designed planner with calendars, habits, budgets, reviews and project pages.",
-      "type": "Digital product. Parent: none assigned.",
+      "type": "Digital product; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the most complete design and update its dated pages before release."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the most complete design and update its dated pages before release.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P057",
       "name": "Digital-product catalog and bundles",
       "purpose": "Digital products and listings across stores and marketplaces.",
-      "type": "Commerce workstream. Parent: P006.",
+      "type": "Commerce workstream; parent P006.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Inventory actual finished files and select one buyer-ready bundle."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Inventory actual finished files and select one buyer-ready bundle.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P058",
       "name": "Beacon / Dance With Me for Beacon",
       "purpose": "A memorial dance and silent-disco concept honoring Beacon.",
-      "type": "Community project. Parent: none assigned.",
+      "type": "Community project; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the memorial intent and select a feasible event or commemorative deliverable."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the memorial intent and select a feasible event or commemorative deliverable.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P059",
       "name": "I Danced for Beacon merchandise",
       "purpose": "Evergreen memorial merchandise concepts across apparel and accessories.",
-      "type": "Merchandise. Parent: P058.",
+      "type": "Merchandise; parent P058.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Turn one approved concept into a production-ready file and sample listing."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Turn one approved concept into a production-ready file and sample listing.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P060",
       "name": "Pixelcutie",
       "purpose": "A cyberpunk pixel-art puppy/cat hybrid with pose variations.",
-      "type": "Character. Parent: none assigned.",
+      "type": "Character; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the approved reference and complete a consistent small pose set."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the approved reference and complete a consistent small pose set.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P061",
       "name": "Glim",
       "purpose": "A teal axolotl work companion with coral gills.",
-      "type": "Character. Parent: none assigned.",
+      "type": "Character; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the source art and fix the failed animation-frame validation."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the source art and fix the failed animation-frame validation.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P062",
       "name": "Plugin Slaughterhouse",
       "purpose": "A manual exploring monetization uses of software and plugins.",
-      "type": "Publication. Parent: none assigned.",
+      "type": "Publication; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the document and verify its practical examples before publishing."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the document and verify its practical examples before publishing.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P063",
       "name": "Trump caricature illustration",
       "purpose": "A standalone caricature illustration request.",
-      "type": "Artwork. Parent: none assigned.",
+      "type": "Artwork; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the requested brief and existing image, if any."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the requested brief and existing image, if any.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P064",
       "name": "The Anastaysia Lines",
       "purpose": "A source-traceable collection of your exact sayings and quotations.",
-      "type": "Collection. Parent: none assigned.",
+      "type": "Collection; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Verify every included quote against a user-authored message."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Verify every included quote against a user-authored message.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P065",
       "name": "Sticker scene variations",
       "purpose": "Multiple scene and sticker-style graphic variants.",
-      "type": "Artwork. Parent: none assigned.",
+      "type": "Artwork; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover source images and inventory completed variations."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover source images and inventory completed variations.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P066",
       "name": "Adult creator platform concept",
       "purpose": "A creator-content/forum exploration with a historically described backend skeleton.",
-      "type": "Product idea. Parent: none assigned.",
+      "type": "Product idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the intended lawful creator workflow and actual implementation evidence."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the intended lawful creator workflow and actual implementation evidence.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P067",
       "name": "Master graphics and assets library",
       "purpose": "Organized logos, renders, interface graphics, diagrams and thumbnails.",
-      "type": "System. Parent: P009.",
+      "type": "System; parent P009.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Index actual files by canonical project ID and separate prompts from finished assets."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Index actual files by canonical project ID and separate prompts from finished assets.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P068",
       "name": "SmartPickShop social branding kit",
       "purpose": "Platform-specific branding across the parent brand and products.",
-      "type": "Brand workstream. Parent: P001.",
+      "type": "Brand workstream; parent P001.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover approved exports and identify missing platform sizes."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Finish live account deployment and mobile/desktop QA, then connect remaining eligible networks to Metricool.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P069",
       "name": "Founder ecosystem mascots",
       "purpose": "Mascot characters supporting the Founder brand and educational system.",
-      "type": "Brand workstream. Parent: P002.",
+      "type": "Brand workstream; parent P002.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover approved character references and their actual intended roles."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover approved character references and their actual intended roles.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P070",
       "name": "Reclaimer X100",
       "purpose": "A folding pedestrian recycling cart with expanded carrying capacity.",
-      "type": "Physical invention. Parent: none assigned.",
+      "type": "Physical invention; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover drawings and validate dimensions, materials and loads before construction."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover drawings and validate dimensions, materials and loads before construction.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P071",
       "name": "Arundo donax shelter system",
       "purpose": "Fast-build modular reed shelters, including emergency variants.",
-      "type": "Physical concept. Parent: none assigned.",
+      "type": "Physical concept; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover designs and separate conceptual sketches from buildable, reviewed plans."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover designs and separate conceptual sketches from buildable, reviewed plans.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P072",
       "name": "Arundo cabin / fort",
       "purpose": "A more elaborate reed-based cabin or fort concept.",
-      "type": "Variant. Parent: P071.",
+      "type": "Variant; parent P071.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Compare requirements with the base shelter and identify unresolved structural questions."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Compare requirements with the base shelter and identify unresolved structural questions.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P073",
       "name": "Pallet-and-plywood shelter",
       "purpose": "An alternative-material shelter concept.",
-      "type": "Variant. Parent: P071.",
+      "type": "Variant; parent P071.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover its drawings and materials list."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover its drawings and materials list.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P074",
       "name": "Stealth Cane Vault",
       "purpose": "A cane/reed-themed concealed-storage concept.",
-      "type": "Physical concept. Parent: P071.",
+      "type": "Physical concept; parent P071.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the design and define one useful storage prototype."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the design and define one useful storage prototype.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P075",
       "name": "Arundo construction field manual",
       "purpose": "A practical diagram-based construction guide.",
-      "type": "Publication. Parent: P071.",
+      "type": "Publication; parent P071.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Recover the manuscript and flag all unvalidated construction instructions."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the manuscript and flag all unvalidated construction instructions.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P076",
       "name": "Reed Cannon passive amplifier",
       "purpose": "A passive phone-amplifier concept using reed and cans.",
-      "type": "Physical invention. Parent: none assigned.",
+      "type": "Physical invention; parent none assigned.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Build or recover a small prototype and compare its output to an unamplified phone."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Build or recover a small prototype and compare its output to an unamplified phone.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P077",
       "name": "Reed audio variants",
       "purpose": "Stereo, backpack, parabolic, waterproof and larger speaker concepts.",
-      "type": "Variants. Parent: P076.",
+      "type": "Variants; parent P076.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Keep variants together and validate the base acoustic design first."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Keep variants together and validate the base acoustic design first.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P078",
       "name": "Ready Now Women",
       "purpose": "Housing advocacy and community support organizing.",
-      "type": "Community concept. Parent: none assigned.",
+      "type": "Community concept; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover the organizing brief and distinguish assistant-proposed branding from adopted plans."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the organizing brief and distinguish assistant-proposed branding from adopted plans.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P079",
       "name": "Chandoeun and Princess support",
       "purpose": "Assisting a friend and his dog with housing-incident documentation and support routes.",
-      "type": "Support project. Parent: none assigned.",
+      "type": "Support project; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Check actual deadlines and submissions against the prepared evidence packet."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Check actual deadlines and submissions against the prepared evidence packet.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P080",
       "name": "Housing and resource navigation",
       "purpose": "Other housing, document, clinic and assistance research; ownership may vary.",
-      "type": "Support research. Parent: none assigned.",
+      "type": "Support research; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Keep case owners and dated requirements explicit."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Keep case owners and dated requirements explicit.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P081",
       "name": "Rapid Rehousing deposit workbook",
       "purpose": "A requested multi-account deposit workbook for a housing process.",
-      "type": "Document request. Parent: none assigned.",
+      "type": "Document request; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover supplied inputs and confirm whose records are involved before completing it."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover supplied inputs and confirm whose records are involved before completing it.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P082",
       "name": "Found-dog search",
       "purpose": "A separate animal-help search, distinct from Princess.",
-      "type": "Support task. Parent: none assigned.",
+      "type": "Support task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover the originating case and current outcome."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the originating case and current outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P083",
       "name": "Low-cost / 5G internet access",
       "purpose": "Eligibility and access research for home internet.",
-      "type": "Personal task. Parent: none assigned.",
+      "type": "Personal task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Record whether a service was actually activated; preserve research separately."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Record whether a service was actually activated; preserve research separately.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P084",
       "name": "Package-receiving address research",
       "purpose": "Delivery-address and general-delivery options.",
-      "type": "Personal task. Parent: none assigned.",
+      "type": "Personal task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Confirm which option, if any, was used."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Confirm which option, if any, was used.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P085",
       "name": "Cisco switch resale",
       "purpose": "Identifying and selling Cisco network switches.",
-      "type": "Resale task. Parent: none assigned.",
+      "type": "Resale task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Verify inventory, condition and a realistic sale listing."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Verify inventory, condition and a realistic sale listing.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P086",
       "name": "Other networking-equipment resale",
       "purpose": "Axiom transceivers, Lantronix UDS1100 and Advantech FWA1320.",
-      "type": "Resale task. Parent: none assigned.",
+      "type": "Resale task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Inventory exact models and condition before valuation or listing."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Inventory exact models and condition before valuation or listing.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P087",
       "name": "Falcon Northwest / Clevo laptop power",
       "purpose": "Laptop and adapter identification and power troubleshooting.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Resolve the exact model and power specifications from physical evidence."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Resolve the exact model and power specifications from physical evidence.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P088",
       "name": "Broken-screen Moto G recovery",
       "purpose": "Screen mirroring and device-access troubleshooting.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Record whether access was recovered and what options remain."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Record whether access was recovered and what options remain.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P089",
       "name": "Moto G Stylus purchase research",
       "purpose": "A separate phone-selection inquiry.",
-      "type": "Shopping task. Parent: none assigned.",
+      "type": "Shopping task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Preserve the requirements and any purchase outcome."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Preserve the requirements and any purchase outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P090",
       "name": "Samsung Galaxy A17 troubleshooting",
       "purpose": "Lag, System UI and firmware-recovery questions.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover exact device details and distinguish advice from actions actually taken."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover exact device details and distinguish advice from actions actually taken.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P091",
       "name": "MacBook / Dell Wi-Fi troubleshooting",
       "purpose": "Computer-network performance work involving a friend's network.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Record the tested configuration and actual outcome."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Record the tested configuration and actual outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P092",
       "name": "English–Spanish SMS translation",
       "purpose": "Automatic translation of text messages.",
-      "type": "Utility idea. Parent: none assigned.",
+      "type": "Utility idea; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover requirements and verify a practical messaging workflow."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover requirements and verify a practical messaging workflow.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P093",
       "name": "1999 Land Rover diagnosis",
       "purpose": "No-start/no-spark troubleshooting following engine work.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover vehicle-specific evidence and unresolved diagnosis."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover vehicle-specific evidence and unresolved diagnosis.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P094",
       "name": "2009 Volvo V50 electrical issue",
       "purpose": "Fuse and electrical troubleshooting.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Record the exact circuit and diagnostic outcome."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Record the exact circuit and diagnostic outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P095",
       "name": "2009 Cadillac CTS charging issue",
       "purpose": "Charging-system troubleshooting.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Record measurements and the eventual repair, if any."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Record measurements and the eventual repair, if any.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P096",
       "name": "2012 Ford Fusion drivability",
       "purpose": "Jerking and transmission-related questions.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover symptoms and completed diagnostic steps."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover symptoms and completed diagnostic steps.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P097",
       "name": "2015 Dodge Ram repair-cost inquiry",
       "purpose": "A vehicle repair-cost comparison.",
-      "type": "Research task. Parent: none assigned.",
+      "type": "Research task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Preserve scope and any actual quote or repair outcome."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Preserve scope and any actual quote or repair outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P098",
       "name": "Ford F-150 parking sensors",
       "purpose": "Parking-sensor diagnosis with uncertain model year.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Resolve vehicle year and exact symptoms before using prior advice."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Resolve vehicle year and exact symptoms before using prior advice.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P099",
       "name": "2000 Ford Expedition diagnosis",
       "purpose": "Smoke, diagnostic codes and lighting questions.",
-      "type": "Repair task. Parent: none assigned.",
-      "status": "Active personal repair task. White-smoke/fuel-dilution diagnosis continued September 22–23; injector/coil testing and plug inspection produced observations, but no final root cause is verified.",
-      "next_action": "Preserve cylinder mapping; compare injector resistance and coil-primary observations with service specifications; isolate a leaking injector or ignition fault before treating a head-gasket failure as established."
+      "type": "Repair task; parent none assigned.",
+      "status": "Not a commercial launch item. Needs verification",
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Consolidate dated symptoms, scans and repairs without assuming resolution.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P100",
       "name": "1986 Toyota 4Runner lifted concept",
       "purpose": "A lifted-vehicle appearance concept.",
-      "type": "Visualization. Parent: none assigned.",
+      "type": "Visualization; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover the image brief and distinguish visualization from mechanical work."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the image brief and distinguish visualization from mechanical work.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P101",
       "name": "Registration back-fee relief",
       "purpose": "A draft explanation or relief request.",
-      "type": "Document task. Parent: none assigned.",
+      "type": "Document task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover the draft and record actual submission/outcome."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the draft and record actual submission/outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P102",
       "name": "DeWalt FlexVolt battery issue",
       "purpose": "Battery troubleshooting without a confirmed repair.",
-      "type": "Repair task. Parent: none assigned.",
+      "type": "Repair task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Record exact pack details and actual outcome."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Record exact pack details and actual outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P103",
       "name": "LED-strip project",
       "purpose": "Lighting setup or troubleshooting.",
-      "type": "Technical task. Parent: none assigned.",
+      "type": "Technical task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover specifications and completion state."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover specifications and completion state.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P104",
       "name": "Barn three-way switching",
       "purpose": "An electrical-layout inquiry.",
-      "type": "Technical task. Parent: none assigned.",
+      "type": "Technical task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover the original diagram and identify unresolved installation questions."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the original diagram and identify unresolved installation questions.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P105",
       "name": "Equestrian solarium",
       "purpose": "A heat-lamp and fan setup inquiry.",
-      "type": "Physical concept. Parent: none assigned.",
+      "type": "Physical concept; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover requirements and distinguish concept advice from a verified installation."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover requirements and distinguish concept advice from a verified installation.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P106",
       "name": "Light-bulb wattage identification",
       "purpose": "Identifying bulb specifications.",
-      "type": "Technical task. Parent: none assigned.",
+      "type": "Technical task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Preserve the identified part and outcome."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Preserve the identified part and outcome.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P107",
       "name": "Boss RC-505 resale",
       "purpose": "Loop-station valuation and sale research.",
-      "type": "Resale task. Parent: none assigned.",
+      "type": "Resale task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Verify condition and recover any draft listing."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Verify condition and recover any draft listing.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P108",
       "name": "Yu-Gi-Oh / Weiss Schwarz valuation",
       "purpose": "Collectible-card identification and valuation.",
-      "type": "Resale task. Parent: none assigned.",
+      "type": "Resale task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Verify exact cards, condition and any eventual sale."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Verify exact cards, condition and any eventual sale.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P109",
       "name": "Retail security-system research",
       "purpose": "Security-equipment research.",
-      "type": "Research task. Parent: none assigned.",
+      "type": "Research task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover the actual site requirements and selected equipment."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the actual site requirements and selected equipment.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P110",
       "name": "Tree-removal / arborist research",
       "purpose": "Practical tree-service research apparently involving another person.",
-      "type": "Research task. Parent: none assigned.",
+      "type": "Research task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Keep the owner and outcome explicit."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Keep the owner and outcome explicit.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P111",
       "name": "Black lace dress task",
       "purpose": "A fashion-related visual or shopping request.",
-      "type": "Shopping / visual task. Parent: none assigned.",
+      "type": "Shopping / visual task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Recover reference and any selected item."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover reference and any selected item.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P112",
       "name": "Chime QR assistance",
       "purpose": "A practical QR/app-use question.",
-      "type": "Personal task. Parent: none assigned.",
+      "type": "Personal task; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Preserve the help request without treating it as a business project."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Preserve the help request without treating it as a business project.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P113",
       "name": "ChatGPT archive and Drive organization",
       "purpose": "Recovering, backing up and searching project history.",
-      "type": "System. Parent: P009.",
+      "type": "System; parent P009.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Maintain an export manifest with account provenance, file hashes and date coverage."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Keep the register, asset registry, repo/deployment map, and conversation/file provenance synchronized as new evidence appears.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P114",
       "name": "Cross-account / cross-AI master prompts",
       "purpose": "Portable context for continuing work across accounts and AI tools.",
-      "type": "System. Parent: P009.",
-      "status": "Active system work. A reusable Project Handoff skill was created to preserve identity, state, approved decisions, unfinished work, constraints, evidence/files, receiving role and a precise continuation prompt. Full export ingestion and universal cross-LLM synchronization remain unverified.",
-      "next_action": "Test the handoff/import path with one real external-LLM export, reconcile it against stable project IDs and evidence, then round-trip one project to another model without losing decisions or provenance."
+      "type": "System; parent P009.",
+      "status": "Not officially launched — user confirmed. Needs verification",
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Standardize each major repo with a current STATE/HANDOFF/README evidence packet so work can resume from another LLM/account without chat history.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P115",
       "name": "Google Keep running notes",
       "purpose": "A proposed ongoing notes store.",
-      "type": "System idea. Parent: P009.",
+      "type": "System idea; parent P009.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Check for an actual connected notes collection before claiming it exists."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Check for an actual connected notes collection before claiming it exists.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P116",
       "name": "Daily Priority Briefing",
       "purpose": "A proposed briefing across projects, income and practical interests.",
-      "type": "Automation idea. Parent: P009.",
+      "type": "Automation idea; parent P009.",
       "status": "Not officially launched — user confirmed. Needs verification",
-      "next_action": "Define useful triggers; an active scheduler is not established."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Define useful triggers; an active scheduler is not established.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P117",
       "name": "Blue Lantern voice/persona experiments",
       "purpose": "Preferred voice and interaction style experiments.",
-      "type": "Experiment. Parent: none assigned.",
+      "type": "Experiment; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Preserve preferences without claiming a configured voice system."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Preserve preferences without claiming a configured voice system.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P118",
       "name": "GPT/Grok persona experiments",
       "purpose": "Prompt-based modes and named personalities.",
-      "type": "Experiment. Parent: none assigned.",
+      "type": "Experiment; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Archive historical experiments separately from implemented product capabilities."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Archive historical experiments separately from implemented product capabilities.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P119",
       "name": "Emerald Tablets research",
       "purpose": "Ancient-writing translation and interpretation.",
-      "type": "Interest. Parent: none assigned.",
+      "type": "Interest; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Preserve source texts and distinguish translation from interpretation."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Preserve source texts and distinguish translation from interpretation.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P120",
       "name": "Future-technology exploration",
       "purpose": "Cryonics, nanorobotics and neuromorphic-computing topics.",
-      "type": "Interest. Parent: none assigned.",
+      "type": "Interest; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Keep as research interests unless a concrete build is identified."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Keep as research interests unless a concrete build is identified.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P121",
       "name": "Rewards / bonuses / beta-testing research",
       "purpose": "Small earning experiments and comparisons.",
-      "type": "Experiment collection. Parent: none assigned.",
+      "type": "Experiment collection; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Track verified outcomes and effort instead of hypothetical earnings."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Track verified outcomes and effort instead of hypothetical earnings.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P122",
       "name": "Personal health-information research",
       "purpose": "Sensitive personal-information inquiries, summarized without detailed disclosures.",
-      "type": "Private interest. Parent: none assigned.",
+      "type": "Private interest; parent none assigned.",
       "status": "Not a commercial launch item. Needs verification",
-      "next_action": "Keep sensitive case details outside shared portfolio documents."
+      "proposed_track": "Reference / revisit. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Keep sensitive case details outside shared portfolio documents.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P123",
       "name": "$0-Upfront Fulfillment Checker",
       "purpose": "A Shopify-oriented supplier-payment and order-cash-flow checker.",
-      "type": "Product. Parent: P006.",
-      "status": "Not officially launched — user confirmed. The latest Shopify-installable v2 package has been recovered and filed in the Commerce assets; production installation, formula validation and live-store behavior remain unverified.",
-      "next_action": "Inspect the recovered v2 package, verify profit/cash-timing formulas with representative orders, then test installation and behavior in a safe Shopify development context before any production use."
+      "type": "Product; parent P006.",
+      "status": "Not officially launched — user confirmed. A local prototype attachment is referenced; historical Shopify app package claim requires recovery and installation verification.",
+      "proposed_track": "Commerce enabler. Direct build requests, a historical attached prototype and Shopify packaging make this more concrete than a name-only idea.",
+      "next_action": "Inspect files; verify profit formulas and the timing of available customer funds versus supplier charges; test installation separately.",
+      "done_when": "One order scenario is evaluated correctly and the intended store integration is verified.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P124",
       "name": "Margin Calculator",
       "purpose": "Profit, fees, fulfillment costs, margin and break-even calculations.",
-      "type": "Module. Parent: P123.",
+      "type": "Module; parent P123.",
       "status": "Not officially launched — user confirmed. Recovered additional concept / historical build claim; needs verification",
-      "next_action": "Verify formulas with representative orders and separate available cash from accounting profit."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Verify formulas with representative orders and separate available cash from accounting profit.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P125",
       "name": "AI Nexus",
       "purpose": "Shared AI context, contributions, documents and handoffs for several projects.",
-      "type": "Product / infrastructure. Parent: none assigned.",
-      "status": "Not officially launched — user confirmed. Architecture/provider-role planning has expanded to OpenClaw/Azure integration and proposed open/free role-specialized model choices; these are planning selections, not verified installations. Universal synchronization remains unverified, and AI Bridge may overlap without a confirmed rename.",
-      "next_action": "Ingest one external LLM export into the canonical project schema, preserve provenance/decisions/assets, and round-trip one SmartPickShop Trend Lab handoff so a second model can reuse it accurately."
+      "type": "Product / infrastructure; parent none assigned.",
+      "status": "Not officially launched — user confirmed. Architecture and provider-role planning exist; universal synchronization is unverified. AI Bridge may overlap, but no confirmed rename.",
+      "proposed_track": "Enabling infrastructure. Strong recent interest, explicitly intended to support Trend Lab in parallel.",
+      "next_action": "Persist one project, one source document, one decision and one cross-tool handoff that Trend Lab can actually reuse.",
+      "done_when": "A second tool can receive correct saved context and return a traceable contribution.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P126",
       "name": "TikTok Creative Engine",
       "purpose": "Product-oriented advertising and social-content experiments.",
-      "type": "Content system. Parent: P006.",
+      "type": "Content system; parent P006.",
       "status": "Not officially launched — user confirmed. Recovered additional concept / historical build claim; needs verification",
-      "next_action": "Recover one product brief and produce a complete usable creative package."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover one product brief and produce a complete usable creative package.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P127",
       "name": "MarginLeak",
       "purpose": "Commerce Intelligence product for identifying margin leakage.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Define one input dataset, one detectable loss and one demonstrable report."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Define one input dataset, one detectable loss and one demonstrable report.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P128",
       "name": "TruMargin",
       "purpose": "Commerce Intelligence product for accurate profit and margin visibility.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Define verified cost inputs and one trustworthy margin calculation."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Define verified cost inputs and one trustworthy margin calculation.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P129",
       "name": "MissedCall MoneyBack",
       "purpose": "Revenue Recovery product addressing missed-call opportunities.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Define a consented test workflow and measurable recovered opportunities."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Define a consented test workflow and measurable recovered opportunities.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P130",
       "name": "QuoteChaser",
       "purpose": "Revenue Recovery product for following up on open quotes.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Demonstrate a quote-status and follow-up workflow using authorized data."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Demonstrate a quote-status and follow-up workflow using authorized data.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P131",
       "name": "ReactivationOS",
       "purpose": "Revenue Recovery product for re-engaging dormant customers.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Define an eligible customer segment and a measurable reactivation pilot."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Define an eligible customer segment and a measurable reactivation pilot.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P132",
       "name": "RenewalRadar",
       "purpose": "A product for identifying upcoming or at-risk renewals; user also wrote RenewelRadar.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Recover the intended spelling and demonstrate one renewal-risk report."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Recover the intended spelling and demonstrate one renewal-risk report.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P133",
       "name": "LeakWatch",
       "purpose": "Ongoing business-leak detection and monitoring.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Select one measurable leak instead of attempting broad monitoring first."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Select one measurable leak instead of attempting broad monitoring first.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P134",
       "name": "AIVision Score",
       "purpose": "AI-assisted visual or business-opportunity scoring.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Define what is scored, the evidence inputs and how usefulness will be evaluated."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Define what is scored, the evidence inputs and how usefulness will be evaluated.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P135",
       "name": "ReviewSignal",
       "purpose": "Actionable patterns from business reviews and reputation data.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Produce one source-linked review analysis with a concrete recommended action."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Produce one source-linked review analysis with a concrete recommended action.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P136",
       "name": "DocDrop AI",
       "purpose": "Document processing and business-document intelligence.",
-      "type": "SaaS idea. Parent: none assigned.",
+      "type": "SaaS idea; parent none assigned.",
       "status": "Not officially launched — user confirmed. Named SaaS concept; actual implementation not established",
-      "next_action": "Demonstrate one document type and verify extracted facts against originals."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Demonstrate one document type and verify extracted facts against originals.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P137",
       "name": "Mix-and-match SaaS portfolio",
       "purpose": "Commerce Intelligence, Revenue Recovery and AI Business Intelligence families with individually named products.",
-      "type": "Commercial structure. Parent: P001.",
+      "type": "Commercial structure; parent P001.",
       "status": "Not officially launched — user confirmed. Recovered additional concept / historical build claim; needs verification",
-      "next_action": "Preserve all ten brands and recover the user's requested mix-and-match tier structure."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Preserve all ten brands and recover the user's requested mix-and-match tier structure.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P138",
       "name": "Service opportunity idea shelf",
       "purpose": "Internet Business ER, Inbox Rescue, Chargeback Evidence ER, Merchant Appeal Guard, Failure-Signal Radar and open-source bounty work.",
-      "type": "Idea collection. Parent: none assigned.",
+      "type": "Idea collection; parent none assigned.",
       "status": "Not officially launched — user confirmed. Recovered additional concept / historical build claim; needs verification",
-      "next_action": "Retain each proposed name without presenting it as an adopted or operating service."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Retain each proposed name without presenting it as an adopted or operating service.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P139",
       "name": "Multi-marketplace $0-start commerce",
       "purpose": "Combining Shopify, TikTok Shop, Amazon, Walmart, Sellvia and digital products with workable fulfillment cash timing.",
-      "type": "Commerce strategy. Parent: P006.",
+      "type": "Commerce strategy; parent P006.",
       "status": "Not officially launched — user confirmed. Recovered additional concept / historical build claim; needs verification",
-      "next_action": "Verify one complete offer and cash-flow path; do not equate customer payment with immediately available funds."
+      "proposed_track": "Candidate queue. Provisional assistant judgment, not a user decision to pause or abandon.",
+      "next_action": "Verify one complete offer and cash-flow path; do not equate customer payment with immediately available funds.",
+      "done_when": "The next-action result is saved with a source or test record. Commercial launch additionally requires the relevant release gate below.",
+      "source_status": "current_2026-09-25_ledger"
     },
     {
       "id": "P140",
@@ -1121,7 +1545,8 @@
       "purpose": "A private, mobile-first board for finding and ranking free Craigslist resale opportunities across ZIP codes 95110, 95112, 95121, 95128 and 95148.",
       "type": "Tool / resale workflow. Parent: none assigned.",
       "status": "Not officially launched. Requirements and prior workflow/assets exist; a current live private deployment and continuously refreshed listing feed are not verified.",
-      "next_action": "Re-sweep accessible current listings, preserve source/age/location evidence, flag unavailable or uncertain values, validate filtering/ranking behavior and only then treat a private deployment as complete."
+      "next_action": "Re-sweep accessible current listings, preserve source/age/location evidence, flag unavailable or uncertain values, validate filtering/ranking behavior and only then treat a private deployment as complete.",
+      "source_status": "recovered_legacy_missing_from_current_2026-09-25_ledger"
     },
     {
       "id": "P141",
@@ -1129,7 +1554,8 @@
       "purpose": "Restore a working camera/NVR setup involving Reolink equipment, WatchNet cameras and a Link PoE switch.",
       "type": "Personal technical troubleshooting. Parent: none assigned.",
       "status": "Active. Recent troubleshooting includes WatchNet/Reolink interoperability, IPs 10.1.10.97 and 10.1.10.98, attempted ports including 80/4000/554/8000, and an authorization/username-password error. A working configuration is not verified.",
-      "next_action": "Confirm exact camera/NVR models, supported ONVIF/RTSP settings, network addressing and the legitimate credential/reset path before more authentication attempts."
+      "next_action": "Confirm exact camera/NVR models, supported ONVIF/RTSP settings, network addressing and the legitimate credential/reset path before more authentication attempts.",
+      "source_status": "recovered_legacy_missing_from_current_2026-09-25_ledger"
     },
     {
       "id": "P142",
@@ -1137,7 +1563,217 @@
       "purpose": "Diagnose Windows fastboot-driver recognition and determine legitimate recovery/unlock options for a REVVL 7.",
       "type": "Personal device troubleshooting. Parent: none assigned.",
       "status": "Active. Windows has detected the phone in fastboot context as an Android ADB Interface rather than a confirmed Android Bootloader Interface; `fastboot flashing unlock` returned remote 'unknown command'; ADB was unavailable while in fastboot; user reports the device is FRP-locked.",
-      "next_action": "Identify the exact REVVL 7 model/variant and firmware, install/verify the appropriate bootloader interface driver, and use official OEM/Google account-recovery paths. Do not treat FRP bypass as an approved project step."
+      "next_action": "Identify the exact REVVL 7 model/variant and firmware, install/verify the appropriate bootloader interface driver, and use official OEM/Google account-recovery paths. Do not treat FRP bypass as an approved project step.",
+      "source_status": "recovered_legacy_missing_from_current_2026-09-25_ledger"
+    },
+    {
+      "id": "P143",
+      "name": "founder-os / Founder Dynasty OS web shell",
+      "purpose": "GitHub operating repo for Founder Dynasty OS + Four Offer storefront code (`four-offer-launch/`).",
+      "type": "Implementation repo. Parent: P002 / P016.",
+      "status": "Not officially launched.",
+      "proposed_track": "",
+      "next_action": "Finish Founder OS genuine-user acceptance and keep Four-Offer's separate hosted checkout acceptance tracked under P016.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P144",
+      "name": "ROOTCHECK (Galaxy A17 5G Straight Talk)",
+      "purpose": "Unlock/root diagnostic utility discussed for Galaxy A17 5G Straight Talk.",
+      "type": "Android utility. Parent: P090.",
+      "status": "Not launched. Legitimate OEM/carrier paths only.",
+      "proposed_track": "",
+      "next_action": "Confirm exact model/firmware; no FRP-bypass work (see also P142).",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P145",
+      "name": "San Jose Prospecting PWA",
+      "purpose": "Android-first PWA to prepare, share, track, follow up 150 verified San Jose prospects.",
+      "type": "Tool. Parent: P010 / P013.",
+      "status": "Repo exists (`san-jose-prospecting-pwa`). Not launched.",
+      "proposed_track": "",
+      "next_action": "Treat this build as a stable prospecting asset; refresh the dataset on a controlled cadence rather than rebuilding the app.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P146",
+      "name": "Cashh Radar live service check",
+      "purpose": "Distinguish Cashh Radar *product* (P010) from a historically claimed live API (`/api/health` v2.2.0).",
+      "type": "Ops note / deployment. Parent: P010.",
+      "status": "User: no official launch, no revenue. Historical health-check claims are not receipts.",
+      "proposed_track": "",
+      "next_action": "Re-run live auth/mobile/persistence acceptance and record the result in P010 rather than treating a health endpoint as commercial launch proof.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P147",
+      "name": "Sparky how-to series",
+      "purpose": "Named how-to video series alongside Snarky How-Tos.",
+      "type": "Content series. Parent: P054.",
+      "status": "Planning / generation requests in prior Grok chats.",
+      "proposed_track": "",
+      "next_action": "",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P148",
+      "name": "Realistic UGC product demo videos",
+      "purpose": "TikTok-style UGC clips for ecom SKUs (pet hair remover brush, Party City Halloween, POV frustrated owner).",
+      "type": "Content workstream. Parent: P006 / P126.",
+      "status": "Generation requests; not a launched catalog.",
+      "proposed_track": "",
+      "next_action": "",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P149",
+      "name": "One-minute films + AI posters",
+      "purpose": "Three 1-minute film ideas with AI main-character images and posters.",
+      "type": "Creative experiment. Parent: P054 / P067.",
+      "status": "Ideas + image generation.",
+      "proposed_track": "",
+      "next_action": "",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P150",
+      "name": "smartpickshop-trend-lab repo",
+      "purpose": "Implementation surface for P020 Trend Lab.",
+      "type": "Repo. Parent: P020.",
+      "status": "Public repo updated 2026-09-20. Not launched.",
+      "proposed_track": "",
+      "next_action": "Move the durable v2/database/account-persistence redesign into canonical source, then run signed-in acceptance.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P151",
+      "name": "EGM4000-Android repo",
+      "purpose": "Android/Python companion repo for P045.",
+      "type": "Repo. Parent: P045.",
+      "status": "Public, updated 2026-09-21.",
+      "proposed_track": "",
+      "next_action": "Complete Web/PWA acceptance and one real consenting telemetry session; preserve synthetic vs real-session evidence labels.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P152",
+      "name": "impound-ransom",
+      "purpose": "Unspecified GitHub experiment (`impound-ransom`).",
+      "type": "Needs classification. Parent: none.",
+      "status": "Repo listed 2026-09-17. Do not infer product meaning from the name.",
+      "proposed_track": "",
+      "next_action": "",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P153",
+      "name": "Anarchy-LLM",
+      "purpose": "Public JS repo `Anarchy-LLM`.",
+      "type": "Experiment. Parent: P125 / P034.",
+      "status": "Updated 2026-09-20. Treat as research code, not a launched product.",
+      "proposed_track": "",
+      "next_action": "",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P154",
+      "name": "manila",
+      "purpose": "Public JS repo `manila`. Meaning not established in this chat.",
+      "type": "Needs classification.",
+      "status": "",
+      "proposed_track": "",
+      "next_action": "",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P155",
+      "name": "AudioHardcore",
+      "purpose": "Public Python repo `AudioHardcore` (MIT). Possible overlap with P036 Resonance / audio OS.",
+      "type": "Experiment. Parent: P036 (provisional).",
+      "status": "",
+      "proposed_track": "",
+      "next_action": "",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P156",
+      "name": "Workspace / room reorganization",
+      "purpose": "Personal physical workspace reset mentioned in Grok occupation notes.",
+      "type": "Personal task.",
+      "status": "Active/ongoing as life ops, not a product.",
+      "proposed_track": "",
+      "next_action": "",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P157",
+      "name": "Grok ↔ Drive account split",
+      "purpose": "Track that ChatGPT register cloud home (`1Cv9_F8XINC7ui6Ry6paSQLGKbY0ah-I5`, doc `1A-iHYtp6GphqXEN-mTJOY0GJF92vc83LjL1UDXHN2Zc`) is on a different Google account than the Grok connector (Anastaysia Galaviz).",
+      "type": "Infrastructure / provenance. Parent: P009 / P113.",
+      "status": "",
+      "proposed_track": "",
+      "next_action": "Maintain account/source provenance in handoffs; do not duplicate the canonical register across accounts unless synchronization is explicit.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P158",
+      "name": "SmartPickShop Credentials & Verification Registry",
+      "purpose": "Publicly verifiable, project-based SmartPickShop credential system covering capability badges/certificates, competency standards, machine-readable records, and stable verification paths.",
+      "type": "Credentialing and verification system; parent P001. Related to P005, but this card tracks the SmartPickShop-wide credential registry rather than Founder Dynasty education/licensing.",
+      "status": "",
+      "proposed_track": "",
+      "next_action": "Replace any fictional-person signer treatment with a real authorized signer or organizational attestation, verify the live public registry, test known/unknown IDs + mobile + print, then publish resume/social usage.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P159",
+      "name": "World-Favorite Internet Media Archive",
+      "purpose": "Blogger-based media/archive publishing and monetization experiment.",
+      "type": "Media site; parent P001.",
+      "status": "",
+      "proposed_track": "",
+      "next_action": "Publish and verify the first substantive post, then verify indexing/analytics and complete any remaining AdSense profile steps before treating monetization as active.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P160",
+      "name": "Postiz on Azure",
+      "purpose": "Self-hosted social publishing infrastructure intended to coordinate multiple social channels with SmartPickShop automation.",
+      "type": "Publishing infrastructure; parent P018.",
+      "status": "",
+      "proposed_track": "",
+      "next_action": "Deploy the minimal Azure instance, verify persistence/configuration, connect one supported channel, and complete one scheduled test post with evidence.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
+    },
+    {
+      "id": "P161",
+      "name": "Gaming Trend Labs",
+      "purpose": "Trend-Lab-style game research and prototype program for selecting and validating Android game concepts using demand, competition, complaints, comparable titles, prototype cost, and monetization evidence.",
+      "type": "Research/prototype program; parent none assigned.",
+      "status": "",
+      "proposed_track": "",
+      "next_action": "Select one evidence-backed finalist, build one installable prototype, and run real device acceptance before expanding the concept set.",
+      "done_when": "",
+      "source_status": "current_2026-09-25_ledger"
     }
   ]
 }
