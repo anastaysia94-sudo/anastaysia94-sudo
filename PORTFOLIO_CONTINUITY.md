@@ -1,6 +1,6 @@
 # SmartPickShop Portfolio Continuity
 
-Updated: 2026-09-25 (America/Los_Angeles)
+Updated: 2026-09-25 23:00 (America/Los_Angeles)
 
 ## Purpose
 
@@ -9,7 +9,7 @@ This repository is the discovery point for continuing SmartPickShop work from an
 ## Continuity rules
 
 1. Start with `portfolio/PROJECTS.json` for the account-wide inventory.
-2. Use stable project IDs (P001–P142) when a project has one.
+2. Use stable project IDs (P001–P161) when a project has one.
 3. Existing repositories remain canonical for their current source until an explicit migration is completed.
 4. Do not duplicate a module into a new repository merely because it has a name. Create a new repo only when the workstream is independently buildable, shippable, or maintainable.
 5. Current ownership correction: Sales OS belongs with Cashh Radar, not Founder Dynasty OS. Founder Console remains a module of F.S.A. unless explicitly separated later.
@@ -60,13 +60,18 @@ Notable examples: Sales OS stays with Cashh Radar; Founder Console stays with F.
 
 ## Resume protocol for another LLM/account
 
-1. Read this file and `portfolio/PROJECTS.json`.
+1. Read `CROSS_LLM_BOOTSTRAP.md`, then this file and `portfolio/PROJECTS.json`.
 2. Identify the target project ID and canonical repository.
 3. Read that repository's README, status/handoff files, open PRs/issues, recent commits, and CI before changing code.
 4. Separate **verified current state** from historical claims.
 5. Continue the smallest concrete unfinished execution block.
 6. Save a handoff note before stopping so the next model does not repeat discovery work.
+7. For private files/assets, use the authorized Google Drive entrypoint titled `00 — LLM CONTINUITY — START HERE — SmartPickShop`; do not copy private Drive IDs into public GitHub.
 
 ## Canonical inventory provenance
 
 The project inventory was synchronized from **Master Project Register — SmartPickShop**, updated September 23, 2026, then reconciled against the GitHub repositories visible to the authenticated account on September 25, 2026.
+
+## Portability pack status
+
+All 19 currently accessible repositories have durable continuity files. Ten repository-gap projects have prebuilt seed packs under `repo-seeds/`, and `scripts/bootstrap_missing_repos.ps1` can create their private repositories once an authenticated GitHub CLI with repository-creation permission is available. The account-wide portable entrypoint is `CROSS_LLM_BOOTSTRAP.md`.
