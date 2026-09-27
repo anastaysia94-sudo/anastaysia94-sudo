@@ -1,6 +1,6 @@
 # Cross-LLM Bootstrap — SmartPickShop
 
-Updated: 2026-09-25 America/Los_Angeles
+Updated: 2026-09-27 America/Los_Angeles
 
 ## Purpose
 
@@ -79,3 +79,18 @@ For EGM4000 and F.S.A., acceptance is limited to owned or explicitly authorized 
 ## Security
 
 Never commit credentials, API keys, passwords, customer secrets, private personal information, or private Drive identifiers to public GitHub. Treat any public test credential as disposable test-only data and never reuse it for production.
+
+
+## Azure for Students operating layer
+
+Read `docs/SMARTPICKSHOP_AZURE_FOR_STUDENTS_RULESET.md` before creating Azure resources.
+
+Permanent infrastructure order:
+**ChatGPT → GitHub → Azure for Students → Monitor / Database / Blob Storage → Evidence**
+
+The first unfinished Azure action is read-only verification of the student subscription, remaining credit/expiration, current resources, regions, tiers, and active cost. Do not create resources before that cost baseline exists.
+
+GitHub remains canonical source control. Prefer free/consumption/scale-to-zero services, use VMs only when managed services cannot reasonably meet the need, require monitoring before launch, and record deployment/cost/rollback evidence.
+
+Current plugin truth: there is no full Azure-management ChatGPT connector in the current environment. Azure account/resource administration requires authorized Azure Portal/browser/CLI access.
+
