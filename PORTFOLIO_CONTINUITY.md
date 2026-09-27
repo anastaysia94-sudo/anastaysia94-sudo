@@ -1,6 +1,6 @@
 # SmartPickShop Portfolio Continuity
 
-Updated: 2026-09-25 23:00 (America/Los_Angeles)
+Updated: 2026-09-27 (America/Los_Angeles)
 
 ## Purpose
 
@@ -75,3 +75,15 @@ The project inventory was synchronized from **Master Project Register — SmartP
 ## Portability pack status
 
 All 19 currently accessible repositories have durable continuity files. Ten repository-gap projects have prebuilt seed packs under `repo-seeds/`, and `scripts/bootstrap_missing_repos.ps1` can create their private repositories once an authenticated GitHub CLI with repository-creation permission is available. The account-wide portable entrypoint is `CROSS_LLM_BOOTSTRAP.md`.
+
+
+## Azure for Students portfolio rule
+
+The portfolio-level Azure policy lives in `docs/SMARTPICKSHOP_AZURE_FOR_STUDENTS_RULESET.md`.
+
+Azure is a shared execution layer underneath validated products, not a separate project whose success is measured by resource count. Preserve this order:
+
+**ChatGPT → canonical GitHub source → Azure execution → monitoring → durable persistence → evidence**
+
+Before any new billable Azure resource is created, verify the live Azure for Students balance and current resource inventory. Prefer serverless/managed/scale-to-zero designs when they fit. Do not migrate a healthy workload merely to move it to Azure. A migration needs a measurable cost, reliability, integration, credit-leverage, or capability reason.
+
