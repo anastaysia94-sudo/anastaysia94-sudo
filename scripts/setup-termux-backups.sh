@@ -21,15 +21,15 @@ backup(){
   local name="$1" delete="$2" temp token status
   resolve_repo "$name"
   temp="$(mktemp -d)"
-  trap 'rm -rf "$temp"' RETURN
   gh api "repos/$OWNER/$OWNER/contents/scripts/backup-to-drive.sh" --jq .content | base64 --decode > "$temp/backup-to-drive.sh"
   bash -n "$temp/backup-to-drive.sh"
   token="$(gh auth token)"
   printf 'Running phone-local %s for %s\n' "$(if [[ "$delete" == true ]]; then echo verified-cleanup; else echo backup-only; fi)" "$name"
   if GH_TOKEN="$token" GITHUB_REPOSITORY="$OWNER/$name" DRIVE_DESTINATION="$REMOTE" MIN_AGE_DAYS=7 DELETE_AFTER_BACKUP="$delete" BACKUP_LFS=true bash "$temp/backup-to-drive.sh"; then
+    rm -rf "$temp"
     echo "SUCCESS: $name"
   else
-    status=$?; echo "FAILED (no further repository work): $name (exit $status)" >&2; return "$status"
+    status=$?; rm -rf "$temp"; echo "FAILED (no further repository work): $name (exit $status)" >&2; return "$status"
   fi
 }
 case "$MODE" in
