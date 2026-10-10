@@ -10,7 +10,7 @@ The workflow `.github/workflows/backup-to-drive.yml` and script `scripts/backup-
 - checks SHA-256 of each uploaded backup by re-reading it from Drive before any artifact deletion;
 - never deletes Git code, commits, branches, GitHub Releases, workflows, Packages, or caches.
 
-The connected Drive account was used to create a `GitHub-Backups` folder. Three GitHub Actions artifact ZIPs were independently copied to Drive and verified by byte-for-byte readback: one Firek-clone artifact and two doubletap-rewards artifacts, totaling 29,910,292 bytes. **No GitHub artifact was deleted.**
+The connected Drive account was used to create a `GitHub-Backups` folder. Three GitHub Actions artifact ZIPs were independently copied to Drive and verified by byte-for-byte readback: one from one repository and two from another; names are in the private Drive manifest, totaling 29,910,292 bytes. **No GitHub artifact was deleted.**
 
 **End-to-end automatic acceptance is pending OAuth authorization on a trusted device.** GitHub Actions secrets cannot be set through the connected GitHub API actions available here. Use `scripts/setup-anastaysia94.ps1` from Windows PowerShell after `gh auth login` and `rclone config` to install the encrypted Actions secret and safe variables on all accessible repositories. The setup script intentionally leaves scheduled backup and deletion disabled. Run one backup-only pilot first; inspect the workflow output and Google Drive copies before any opt-in.
 
